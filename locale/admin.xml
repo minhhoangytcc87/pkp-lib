@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/admin.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="vi_VN" full_name="Tiếng Việt">
+	<message key="admin.systemInfo.settingName">Tên cài đặt</message>
+	<message key="admin.systemInfo.settingValue">Giá trị cài đặt</message>
+	<message key="admin.adminFunctions">Chức năng quản trị</message>
+	<message key="admin.auth.confirmDelete">Bạn có chắc chắn muốn xóa vĩnh viễn nguồn xác thực này không?</message>
+	<message key="admin.auth.create">Tạo nguồn xác thực</message>
+	<message key="admin.auth.noneCreated">Không có nguồn xác thực nào được xác định.</message>
+	<message key="admin.authSources">Nguồn xác thực</message>
+	<message key="admin.clearDataCache">Xóa bộ nhớ dữ liệu</message>
+	<message key="admin.clearTemplateCache">Xóa bộ nhớ dữ liệu mẫu</message>
+	<message key="admin.configFileUpdatedInstructions"><![CDATA[Your configuration file has been successfully updated. Please note that if your site no longer functions correctly you may need to manually fix your configuration by editing <tt>config.inc.php</tt> directly.]]></message>
+	<message key="admin.confirmClearTemplateCache">Bạn có chắc chắn muốn xóa bộ nhớ cache của các mẫu đã biên dịch không?</message>
+	<message key="admin.confirmExpireSessions">Bạn có chắc chắn muốn hết hạn truy cập tất cả các phần của người dùng không? Tất cả người dùng hiện đang đăng nhập vào hệ thống sẽ bị buộc phải đăng nhập lại (bao gồm cả bạn).</message>
+	<message key="admin.contentsOfConfigFile">Nội dung của tập tin cấu hình</message>
+	<message key="admin.contexts.confirmDelete">Bạn có chắc chắn muốn xóa vĩnh viễn {$ tênnộidung} và tất cả nội dung không?</message>
+	<message key="admin.currentVersion">Phiên bản hiện tại</message>
+	<message key="admin.dateInstalled">Ngày cài đặt</message>
+	<message key="admin.displayConfigFileInstructions"><![CDATA[The contents of your updated configuration are displayed below. To apply the configuration changes you must open <tt>config.inc.php</tt> in a suitable text editor and replace its contents with the contents of the text field below.]]></message>
+	<message key="admin.displayNewSystemConfig">Hiển thị cấu hình mới</message>
+	<message key="admin.expireSessions">Hết hạn phiên của người dùng</message>
+	<message key="admin.languages.download">Tải miền xuống</message>
+	<message key="admin.languages.downloadLocales">Tải miền xuống</message>
+	<message key="admin.languages.download.cannotOpen">Không thể mở bộ mô tả ngôn ngữ từ trang web PKP.</message>
+	<message key="admin.languages.download.cannotModifyRegistry">Không thể thêm ngôn ngữ mới vào tệp đăng ký ngôn ngữ, thường là "đăngký / miền.xml".</message>
+	<message key="admin.languages.cantDisable">Ngôn ngữ này là ngôn ngữ chính của trang web. Bạn không thể tắt tính năng này cho đến khi bạn chọn một ngôn ngữ chính khác.</message>
+
+	<message key="admin.languages.confirmReload">Bạn có chắc chắn muốn tải lại miền này không? Thao tác này sẽ xóa mọi dữ liệu hiện tại, chẳng hạn như các email mẫu.</message>
+	<message key="admin.languages.installedLocales">Vùng được cài đặt</message>
+	<message key="admin.languages.installLanguages">Quản lý miền</message>
+	<message key="admin.languages.availableLocales">Miền khả dụng</message>
+	<message key="admin.languages.installLocale">Cài đặt Miền</message>
+	<message key="admin.languages.installLocales">Cài đặt</message>
+	<message key="admin.languages.installNewLocales">Cài đặt Miền mới</message>
+	<message key="admin.languages.languageSettings">Cài đặt ngôn ngữ</message>
+	<message key="admin.languages.noLocalesAvailable">Không có thêm miền nào để cài đặt.</message>
+	<message key="admin.languages.reload">Tải lại miền</message>
+	<message key="admin.languages.uninstall">Gỡ cài đặt miền</message>
+	<message key="admin.phpInfo">Mở rộng thông tin PHP</message>
+	<message key="admin.scheduledTask">Tác vụ theo lịch</message>
+	<message key="admin.scheduledTask.startTime">Đã bắt đầu quá trình tác vụ.</message>
+	<message key="admin.scheduledTask.stopTime">Đã dừng quá trình tác vụ.</message>
+	<message key="admin.scheduledTask.noLog">Tác vụ không tạo nhật ký.</message>
+	<message key="admin.scheduledTask.downloadLog">Cài đặt {$ softwareName} của bạn sẽ tự động thực thi và khi hoàn tất tác vụ này và bạn có thể tải xuống tệp nhật ký tại đây: {$url}</message>
+	<message key="admin.scheduledTask.confirmClearLogs">Bạn có chắc chắn muốn xóa tất cả các nhật ký thực thi tác vụ được lên lịch?</message>
+	<message key="admin.scheduledTask.clearLogs">Xóa nhật ký thực hiện tác vụ được lập lịch</message>
+	<message key="admin.scheduledTask.reviewReminder">Xem lại lời nhắc</message>
+	<message key="admin.scheduledTask.subscriptionExpiryReminder">Lời nhắc hết hạn đăng ký</message>
+	<message key="admin.server.apacheVersion">Phiên bản Apache</message>
+	<message key="admin.server.dbDriver">Điều khiển cơ sở dữ liệu</message>
+	<message key="admin.server.dbVersion">Phiên bản máy chủ cơ sở dữ liệu</message>
+	<message key="admin.serverInformation">Thông tin máy chủ</message>
+	<message key="admin.server.phpVersion">Phiên bản PHP</message>
+	<message key="admin.server.platform">Nền tảng hệ điều hành</message>
+	<message key="admin.settings">Cài đặt</message>
+	<message key="admin.settings.aboutDescription">Về trang web</message>
+	<message key="admin.settings.contactEmail">Email liên hệ chính</message>
+	<message key="admin.settings.contactName">Tên người liên hệ chính</message>
+	<message key="admin.settings.form.contactEmailRequired">Địa chỉ email của người liên hệ chính là bắt buộc.</message>
+	<message key="admin.settings.form.contactNameRequired">Tên của người liên hệ chính là bắt buộc.</message>
+	<message key="admin.settings.form.minPasswordLengthRequired">Bạn phải nhập mật khẩu tối thiểu 4 ký tự.</message>
+	<message key="admin.settings.form.titleRequired">Tựa đề là bắt buộc.</message>
+	<message key="admin.settings.defaultMetricDescription">
+		Cài đặt của bạn được định cấu hình để ghi lại nhiều chỉ số sử dụng. Thống kê sử dụng sẽ được hiển thị trong một số ngữ cảnh.
+		Có những trường hợp phải sử dụng thống kê sử dụng duy nhất, ví dụ: để hiển thị danh sách được sắp xếp của các bản đệ trình được sử dụng nhiều nhất hoặc để xếp hạng
+		kết quả tìm kiếm. Vui lòng chọn một trong các chỉ số được định cấu hình làm mặc định.
+	</message>
+	<message key="admin.settings.homeHeaderImage.altText">Biểu trưng trang web</message>
+	<message key="admin.settings.homeHeaderImageInvalid">Định dạng hình ảnh logo trang web không hợp lệ. Các định dạng được chấp nhận là .gif, .jpg, or .png.</message>
+	<message key="admin.settings.introduction">Giới thiệu</message>
+	<message key="admin.settings.minPasswordLength">Độ dài mật khẩu tối thiểu (ký tự)</message>
+	<message key="admin.settings.siteLanguage">Ngôn ngữ trang web</message>
+	<message key="admin.settings.siteStyleSheetInvalid">Định dạng trang kiểu trang không hợp lệ. Định dạng được chấp nhận là .css.</message>
+	<message key="admin.settings.siteStyleSheet">Kiểu trang của trang web</message>
+	<message key="admin.settings.siteLogo">Biểu trưng trang web</message>
+	<message key="admin.settings.siteTitle">Tên trang web</message>
+	<message key="admin.settings.siteTheme">Chủ đề trang web</message>
+	<message key="admin.siteAdmin">Quản trị trang web</message>
+	<message key="admin.siteManagement">Quản lý trang web</message>
+	<message key="admin.siteSettings">Cài đặt Trang web</message>
+	<message key="admin.siteSetup">Thiết lập trang web</message>
+	<message key="admin.systemConfigFileReadError"><![CDATA[The configuration file <tt>config.inc.php</tt> does not exist, is not readable, or is invalid.]]></message>
+	<message key="admin.systemInformation">Hệ thống thông tin</message>
+	<message key="admin.versionBuild">Xây dựng</message>
+	<message key="admin.version.checkForUpdates">Kiểm tra cập nhật</message>
+	<message key="admin.version.downloadPackage">Tải về</message>
+	<message key="admin.version.downloadPatch">Tải xuống Patch</message>
+	<message key="admin.versionHistory">Lịch sử phiên bản</message>
+	<message key="admin.version.latest">Phiên bản mới nhất</message>
+	<message key="admin.versionMajor">Chính</message>
+	<message key="admin.versionMinor">Phụ</message>
+	<message key="admin.version.moreInfo">Thêm thông tin</message>
+	<message key="admin.versionRevision">Bản sửa đổi</message>
+	<message key="admin.version.updateAvailable">Đã có phiên bản cập nhật</message>
+	<message key="admin.version.upToDate">Hệ thống của bạn được cập nhật</message>
+	<message key="admin.version">Phiên bản</message>
+
+	<message key="admin.fileLoader.wrongBasePathLocation">Đường dẫn cơ sở {$ đườngdẫn} phải nằm trong thư mục tệp công khai.</message>
+	<message key="admin.fileLoader.pathNotAccessible">Thư mục {$ đườngdẫn} không phải là thư mục hoặc không thể đọc được.</message>
+	<message key="admin.fileLoader.moveFileFailed">Không thể di chuyển tệp {$ têntệp} từ {$ dườngdẫntệphiệntại} sang {$ dườngdẫnmuốnsaochéptới}</message>
+	<message key="admin.fileLoader.fileProcessed">Tệp {$ têntệp} đã được xử lý và lưu trữ.</message>
+	<message key="admin.fileLoader.emailSubject">Trình tải tệp</message>
+
+	<message key="admin.copyAccessLogFileTool.usage">Sao chép (các) tệp nhật ký truy cập apache đã qua, lọc các mục liên quan đến cài đặt này,
+vào thư mục tệp hiện tại, bên trong thư mục giai đoạn UsageStatsPlugin. Phải chạy dưới người dùng với đủ đặc quyền để đọc tệp nhật ký truy cập apache.
+
+Công cụ này sẽ chỉ sao chép các tệp không có trong thư mục trình tải tệp tin usageStats (giai đoạn, xử lý, lưu trữ, từ chối).
+
+Cách sử dụng: Đường dẫn {$ scriptName} / tới / apache / log / file.log
+Cách sử dụng (xử lý tất cả các tệp bên trong một thư mục): {$ scriptName} đường dẫn / đến / apache / directory
+	</message>
+	<message key="admin.copyAccessLogFileTool.error.creatingFolder">Lỗi: không thể tạo thư mục tạm thời {$tmpDir}</message>
+	<message key="admin.copyAccessLogFileTool.error.acessingFile">Lỗi: Tệp {$ filePath} không tồn tại hoặc không thể truy cập được.</message>
+	<message key="admin.copyAccessLogFileTool.error.copyingFile">Lỗi: không thể sao chép tệp từ {$ dườngdẫntệp} sang {$tmpFilePath}</message>
+	<message key="admin.copyAccessLogFileTool.error.deletingFile">Lỗi: không thể xóa tệp {$tmpFilePath}</message>
+	<message key="admin.copyAccessLogFileTool.warning.fileAlreadyExists">Cảnh báo: tệp {$ dườngdẫntệphiệntại} đã tồn tại bên trong thư mục thống kê sử dụng.</message>
+	<message key="admin.copyAccessLogFileTool.success">Thành công: {$dườngdẫntệphiệntại} to {$dườngdẫnmuốnsaochéptới}</message>
+	<message key="admin.error.utilExecutionProblem">Việc thực thi chương trình "{$ utilPath}" đã trả về lỗi sau: {$ output}</message>
+	<message key="admin.error.executingUtil">Lỗi: không thể thực thi "{$ utilPath}". Kiểm tra cài đặt {$ utilVar} của bạn trong config.inc.php.</message>
+	<message key="admin.languages.noLocalesToDownload">Không có miền nào để tải xuống.</message>
+</locale>

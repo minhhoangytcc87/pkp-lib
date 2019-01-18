@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/installer.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="vi_VN" full_name="Tiếng Việt">
+	<message key="installer.additionalLocales">Ngôn ngữữ bổ sung</message>
+	<message key="installer.administratorAccount">Tài khoản ban quản trị</message>
+	<message key="installer.administratorAccountInstructions">Tài khoản người dùng này sẽ trở thành quản trị viên trang web và có toàn quyền truy cập vào hệ thống. Bạn có thể tạo tài khoản người dùng bổ sung sau khi cài đặt.</message>
+	<message key="installer.checkNo"><![CDATA[<span class="pkp_form_error formError">NO</span>]]></message>
+	<message key="installer.checkYes">Có</message>
+	<message key="installer.clientCharset">Bộ ký tự của khách hàng</message>
+	<message key="installer.clientCharsetInstructions">Mã hóa để sử dụng cho dữ liệu được gửi đến và nhận từ trình duyệt.</message>
+	<message key="installer.configFileError"><![CDATA[The configuration file <tt>config.inc.php</tt> does not exist or is not readable.]]></message>
+	<message key="installer.connectionCharset">Bộ ký tự kết nối</message>
+	<message key="installer.contentsOfConfigFile">Nội dung của tập tin cấu hình</message>
+	<message key="installer.createDatabase">Tạo cơ sở dữ liệu mới</message>
+	<message key="installer.createDatabaseInstructions">Để sử dụng tùy chọn này, hệ thống cơ sở dữ liệu của bạn phải hỗ trợ tạo cơ sở dữ liệu từ xa và tài khoản người dùng của bạn phải có quyền thích hợp để tạo cơ sở dữ liệu mới. Nếu cài đặt thất bại với tùy chọn này được chọn, tự tạo cơ sở dữ liệu trên máy chủ của bạn và chạy trình cài đặt lại với tùy chọn này bị tắt.</message>
+	<message key="installer.databaseCharset">Bộ ký tự cơ sở dữ liệu</message>
+	<message key="installer.databaseDriver">Điều khiển cơ sở dữ liệu</message>
+	<message key="installer.databaseDriverInstructions"><![CDATA[<strong>Database drivers listed in brackets do not appear to have the required PHP extension loaded and installation will likely fail if selected.</strong><br />Any unsupported database drivers listed above are listed solely for academic purposes and are unlikely to work.]]></message>
+	<message key="installer.databaseHost">Máy chủ</message>
+	<message key="installer.databaseHostInstructions">Để trống tên máy chủ để kết nối bằng cách sử dụng các cổng tên miền thay vì qua TCP/IP. Điều này là không cần thiết với MySQL, sẽ tự động sử dụng các socket nếu "localhost" được nhập vào, nhưng được yêu cầu với một số máy chủ cơ sở dữ liệu khác như PostgreSQL.</message>
+	<message key="installer.databaseName">Tên cơ sở dữ liệu</message>
+	<message key="installer.databasePassword">Mật khẩu</message>
+	<message key="installer.databaseSettings">Cài đặt cơ sở dữ liệu</message>
+	<message key="installer.databaseUsername">Tên người dùng</message>
+	<message key="installer.filesDir">Thư mục tải lên</message>
+	<message key="installer.fileSettings">Cài đặt tệp</message>
+	<message key="installer.form.clientCharsetRequired">Phải chọn bộ ký tự ứng dụng khách hàng.</message>
+	<message key="installer.form.databaseDriverRequired">Một trình điều khiển cơ sở dữ liệu phải được chọn.</message>
+	<message key="installer.form.databaseNameRequired">Tên cơ sở dữ liệu là bắt buộc.</message>
+	<message key="installer.form.emailRequired">Địa chỉ email hợp lệ cho tài khoản quản trị viên là bắt buộc.</message>
+	<message key="installer.form.filesDirRequired">Thư mục được sử dụng để lưu trữ các tệp đã tải lên là bắt buộc.</message>
+	<message key="installer.form.localeRequired">Phải chọn ngôn ngữ.</message>
+	<message key="installer.form.passwordRequired">Cần có mật khẩu cho tài khoản quản trị viên.</message>
+	<message key="installer.form.passwordsDoNotMatch">Mật khẩu quản trị viên không khớp.</message>
+	<message key="installer.form.separateMultiple">Tách nhiều giá trị bằng dấu phẩy</message>
+	<message key="installer.form.usernameAlphaNumeric">Tên người dùng quản trị viên chỉ có thể chứa các ký tự chữ và số, dấu gạch dưới và dấu gạch ngang và phải bắt đầu và kết thúc bằng ký tự chữ và số.</message>
+	<message key="installer.form.usernameRequired">Yêu cầu tên người dùng cho tài khoản quản trị viên.</message>
+	<message key="installer.installationWrongPhp"><![CDATA[<br/><strong>WARNING: Phiên bản PHP hiện tại của bạn không đáp ứng các yêu cầu tối thiểu để cài đặt. Bạn nên nâng cấp lên bản phát hành PHP mới hơn.</strong>]]></message>
+	<message key="installer.installErrorsOccurred">Đã xảy ra lỗi khi cài đặt</message>
+	<message key="installer.installerSQLStatements">Các câu lệnh SQL để cài đặt</message>
+	<message key="installer.installFileError"><![CDATA[The installation file <tt>dbscripts/xml/install.xml</tt> does not exist or is not readable.]]></message>
+	<message key="installer.installFilesDirError">Thư mục được chỉ định cho các tệp đã tải lên không tồn tại hoặc không thể ghi được.</message>
+	<message key="installer.installParseDBFileError"><![CDATA[Error parsing the database installation file <tt>{$file}</tt>.]]></message>
+	<message key="installer.installParseEmailTemplatesFileError"><![CDATA[Error parsing the email template file <tt>{$file}</tt>.]]></message>
+	<message key="installer.installParseFilterConfigFileError"><![CDATA[Error parsing the filter configuration file <tt>{$file}</tt>.]]></message>
+	<message key="installer.unsupportedUpgradeError">Nâng cấp không được hỗ trợ. Xem docs/UPGRADE-UNSUPPORTED để biết thêm chi tiết.</message>
+	<message key="installer.locale">Ngôn ngữ</message>
+	<message key="installer.locale.maybeIncomplete">Các ngôn ngữ được đánh dấu có thể chưa hoàn chỉnh.</message>
+	<message key="installer.localeSettings">cài đặt ngôn ngữ</message>
+	<message key="installer.oaiSettings">OAI Settings</message>
+	<message key="installer.oaiRepositoryIdInstructions"><![CDATA[Số nhận dạng duy nhất được sử dụng để xác định các bản ghi siêu dữ liệu được lập chỉ mục từ trang web này bằng cách sử dụng <a href="http://www.openarchives.org/" target="_blank">Open Archives Initiative</a> Protocol cho Metadata Harvesting.]]></message>
+	<message key="installer.oaiRepositoryId">Mã định danh kho</message>
+	<message key="installer.publicFilesDirError">Thư mục tệp công khai không tồn tại hoặc không thể ghi được.</message>
+	<message key="installer.releaseNotes">Ghi chú phát hành</message>
+	<message key="installer.preInstallationInstructionsTitle">Các bước cài đặt trước</message>
+	<message key="installer.preInstallationInstructions"><![CDATA[
+		<p>1. The following files and directories (and their contents) must be made writable:</p>
+		<ul>
+			<li><tt>config.inc.php</tt> is writable (optional): {$writable_config}</li>
+			<li><tt>public/</tt> is writable: {$writable_public}</li>
+			<li><tt>cache/</tt> is writable: {$writable_cache}</li>
+			<li><tt>cache/t_cache/</tt> is writable: {$writable_templates_cache}</li>
+			<li><tt>cache/t_compile/</tt> is writable: {$writable_templates_compile}</li>
+			<li><tt>cache/_db</tt> is writable: {$writable_db_cache}</li>
+		</ul>
+
+		<p>2. A directory to store uploaded files must be created and made writable (see "File Settings" below).</p>]]>
+	</message>
+	<message key="installer.configureXSLMessage"><![CDATA[<p>Cài đặt PHP của bạn chưa bật mô-đun XSL. Kích hoạt nó, hoặc cấu hình tham số xslt_command trong file config.inc.php của bạn.</p>]]></message>
+	<message key="installer.beacon">Beacon</message>
+	<message key="installer.beacon.enable">Cung cấp ID trang web duy nhất và URL cơ sở OAI cho PKP chỉ cho mục đích thống kê và cảnh báo bảo mật.</message>
+	<message key="installer.unsupportedPhpError">Phiên bản PHP của máy chủ của bạn không được phần mềm này hỗ trợ. Kiểm tra kỹ các yêu cầu cài đặt trong docs/README.</message>
+</locale>

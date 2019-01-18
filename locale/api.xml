@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/api.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the REST API.
+  -->
+
+<locale name="vi_VN" full_name="Tiếng Việt">
+	<message key="api.submissions.403.csrfTokenFailure">Yêu cầu của bạn đã bị từ chối. Điều này có thể là do thông tin đăng nhập của bạn đã hết hạn. Thử tải lại trang và thử lại.</message>
+	<message key="api.submissions.403.requestedOthersUnpublishedSubmissions">Bạn chỉ có thể xem các bài gửi chưa được xuất bản mà bạn đã được chỉ định.</message>
+	<message key="api.submissions.403.deleteSubmissionOutOfContext">Bạn không thể xóa nội dung gửi không được gán cho ngữ cảnh này.</message>
+	<message key="api.submissions.403.unauthorizedDeleteSubmission">Bạn không được phép xóa nội dung gửi này.</message>
+	<message key="api.submissions.404.resourceNotFound">Không tìm thấy phương pháp được yêu cầu.</message>
+	<message key="api.submissions.400.missingRequired">Không thể hoàn thành yêu cầu của bạn vì yêu cầu thiếu thông tin.</message>
+	<message key="api.submissions.400.invalidIssueIdentifiers">Khối lượng, số lượng hoặc năm được yêu cầu không hợp lệ.</message>
+	<message key="api.submissions.unknownError">Một lỗi không mong muốn đã xảy ra. Hãy tải lại trang và thử lại.</message>
+</locale>

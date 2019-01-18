@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/reader.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="vi_VN" full_name="Tiếng Việt">
+	<message key="comments.anonymous">Người dùng nặc danh</message>
+	<message key="comments.anonymousNamed">"{$userName}"</message>
+	<message key="comments.body">Thân</message>
+	<message key="comments.titleRequired">Yêu cầu tiêu đề bình luận.</message>
+	<message key="comments.confirmDeleteChildren">Xoá bình luận này cũng sẽ xoá tất cả phản hồi của nó. Bạn có chắc chắn muốn xoá?</message>
+	<message key="comments.delete">Xoá bình luận này</message>
+	<message key="comments.email">Poster Email</message>
+	<message key="comments.emailReply">Email phản hồi</message>
+	<message key="comments.enterComment">Đăng bình luận</message>
+	<message key="comments.inResponseTo"><![CDATA[Trả lời cho <a href="{$url}">{$title}</a>]]></message>
+	<message key="comments.name">Tên Poster</message>
+	<message key="comments.noComments">Không có bình luận của người đọc nào được đăng.</message>
+	<message key="comments.nReplies">({$num} trả lời)</message>
+	<message key="comments.oneReply">(1 Reply)</message>
+	<message key="comments.postAnonymously">Đăng bình luận này với tư cách nặc danh</message>
+	<message key="comments.postReply">Đăng bình luận</message>
+	<message key="comments.readerComments">Bình luận của ngừoi đọc</message>
+	<message key="comments.readMore">Đọc nhiều hơn</message>
+	<message key="comments.replies">Trả lời</message>
+	<message key="comments.title">Tiêu đề</message>
+	<message key="comments.viewAllComments">Xem tất cả bình luận</message>
+	<message key="reader.fullText">Toàn văn:</message>
+	<message key="rt.addComment">Thêm bình luận</message>
+	<message key="rt.admin.configuration">Cấu hình</message>
+	<message key="rt.admin.contexts.confirmDelete">Bạn có chắc chắn muốn xóa Ngữ cảnh này và tất cả các Tìm kiếm được liên kết không?</message>
+	<message key="rt.admin.contexts.createContext">Tạo ngữ cảnh</message>
+	<message key="rt.admin.contexts.edit.editContext">Sửa ngữ cảnh</message>
+	<message key="rt.admin.contexts.metadata">Siêu dữ liệu</message>
+	<message key="rt.admin.contexts.options.authorTerms">Sử dụng tên tác giả làm cụm từ tìm kiếm mặc định để cho phép người dùng tìm các tác phẩm khác của tác giả cho mục này (ví dụ: đối với ngữ cảnh "Tác phẩm khác")</message>
+	<message key="rt.admin.contexts.options.citedBy">Sử dụng tên tác giả làm cụm từ tìm kiếm mặc định và mô tả ngữ cảnh như tìm kiếm trích dẫn cho bài viết.</message>
+	<message key="rt.admin.contexts.options.defineTerms"><![CDATA[Sử dụng từ được đánh dấu bởi người đọc làm cụm từ tìm kiếm mặc định hoặc để trống nếu không có mục nào được chọn cho mục này (ví dụ: đối với ngữ cảnh "Định nghĩa thuật ngữ"). Tùy chọn "Định nghĩa thuật ngữ" phải được bật trong <a href="{$settingsUrl}">RST Settings</a> to allow double-clicking on words to open this context.]]></message>
+	<message key="rt.admin.contexts.options.geoTerms">Sử dụng dữ liệu lập chỉ mục địa lý làm cụm từ tìm kiếm mặc định.</message>
+	<message key="rt.admin.contexts.options">Tuỳ chọn</message>
+	<message key="rt.admin.management">Quản lý</message>
+
+	<message key="rt.admin.sharing">Chia sẻ</message>
+	<message key="rt.admin.sharing.enabled">Đã bật chia sẻ </message>
+	<message key="rt.admin.sharing.description"><![CDATA[Để cho phép người đọc chia sẻ nội dung, hãy đăng ký tài khoản <a href="http://www.addthis.com">addthis.com</a>, và sao chép/dán mã nút Chia sẻ bên dưới.]]></message>
+
+	<message key="rt.admin.sharing.basic">Cài đặt cơ bản</message>
+	<message key="rt.admin.sharing.userNameLabel">AddThis.com user name</message>
+	<message key="rt.admin.sharing.buttonStyleLabel">Kiểu nút</message>
+	<message key="rt.admin.sharing.dropDownMenuLabel">Sử dụng menu thả xuống</message>
+	<message key="rt.admin.sharing.advanced">Cài đặt nâng cao (tùy chọn)</message>
+	<message key="rt.admin.sharing.customizationLink"><![CDATA[See the <a href="http://support.addthis.com/customer/portal/articles/381236-custom-buttons">AddThis.com customization documentation</a> for reference.]]></message>
+	<message key="rt.admin.sharing.brandLabel">Nhãn hiệu</message>
+	<message key="rt.admin.sharing.dropDownLabel"><![CDATA[Drop-down options <br /> (comma separated list)]]></message>
+	<message key="rt.admin.sharing.languageLabel">Ngôn ngữ</message>
+	<message key="rt.admin.sharing.logolabel">Logo</message>
+	<message key="rt.admin.sharing.logoBackgroundLabel">Nền Logo</message>
+	<message key="rt.admin.sharing.logoColorLabel">Màu logo</message>
+
+	<message key="rt.admin.readingToolsEnabled">Công cụ đọc</message>
+	<message key="rt.admin.searches.confirmDelete">Bạn có chắc chắn muốn xóa Tìm kiếm này không?</message>
+	<message key="rt.admin.searches.createSearch">Tạo tìm kiếm</message>
+	<message key="rt.admin.searches.edit.editSearch">Chỉnh sửa tìm kiếm</message>
+	<message key="rt.admin.selectedVersion">Mục liên quan</message>
+	<message key="rt.admin.settings.abstract">Tóm tắt (trình bày tóm tắt của mục).</message>
+	<message key="rt.admin.settings.viewReviewPolicy">Xem chính sách đánh giá</message>
+	<message key="rt.admin.settings.authorBio">Giới thiệu về tác giả (hiển thị các báo cáo được tác giả nhập vào).</message>
+	<message key="rt.admin.settings.captureCite">Cách trích dẫn mục (cung cấp chi tiết thư mục cho mục).</message>
+	<message key="rt.admin.settings.defineTerms">Tra cứu các điều khoản (cho phép người đọc nhấp đúp vào bất kỳ từ nào trong một mục và gửi từ đó vào một từ điển).</message>
+	<message key="rt.admin.settings.disableRelatedItems">Vô hiệu hóa các mục có liên quan</message>
+	<message key="rt.admin.settings.emailAuthor">Gửi email cho tác giả (dẫn đến mẫu email có email của tác giả).</message>
+	<message key="rt.admin.settings.emailOthers">Thông báo cho một đồng nghiệp (dẫn đến mẫu email có liên kết đến mục).</message>
+	<message key="rt.admin.settings.findingReferences">Tìm tài liệu tham khảo</message>
+	<message key="rt.admin.settings.printerFriendly">Phiên bản in (cung cấp phiên bản một mặt hàng thân thiện với máy in).</message>
+	<message key="rt.admin.settings.supplementaryFiles">Các tệp bổ sung (hiển thị danh sách các tác giả tệp được gửi kèm).</message>
+	<message key="rt.admin.settings.viewMetadata">Siêu dữ liệu lập chỉ mục (hiển thị siêu dữ liệu lập chỉ mục của mục do tác giả và hệ thống cung cấp).</message>
+	<message key="rt.admin.status">Tình trạng</message>
+	<message key="rt.admin.configureSharing">Cấu hình AddThis</message>
+	<message key="rt.admin.validateUrls.complete">Xác thực hoàn tất.</message>
+	<message key="rt.admin.validateUrls.ok">OK</message>
+	<message key="rt.admin.validateUrls.urlIsInvalid">{$url} không hợp lệ.</message>
+	<message key="rt.admin.validateUrls">Xác thực URL cho Công cụ đọc</message>
+	<message key="rt.admin.validateUrls.validate">Xác thực</message>
+	<message key="rt.admin.versions.confirmDelete">Bạn có chắc chắn muốn xóa Phiên bản này và tất cả các ngữ cảnh và tìm kiếm liên quan không?</message>
+	<message key="rt.admin.versions.confirmRestore">Bạn có chắc chắn muốn khôi phục tất cả các phiên bản về mặc định không thể phục hồi không? Nếu vậy, bạn sẽ cần phải chọn một Phiên bản đang hoạt động trên trang Cài đặt.</message>
+	<message key="rt.admin.versions.createVersion">Tạo phiên bản</message>
+	<message key="rt.admin.versions.edit.editVersion">Chỉnh sửa phiên bản</message>
+	<message key="rt.admin.versions.export">Xuất</message>
+	<message key="rt.admin.versions.importVersion">Nhập phiên bản</message>
+	<message key="rt.admin.versions.metadata">Metadata</message>
+	<message key="rt.admin.versions.restoreVersions">Khôi phục Phiên bản về Mặc định</message>
+	<message key="rt.authorBio">Giới thiệu tác giả</message>
+	<message key="rt.captureCite.format">Định dạng trích dẫn</message>
+	<message key="rt.captureCite">Cách trích dẫn mục</message>
+	<message key="rt.captureCite.online">Online</message>
+	<message key="rt.captureCite.web">Web</message>	
+	<message key="rt.colleague">Thông báo cho đồng nghiệp</message>
+	<message key="rt.context.abbrev">Abbrev</message>
+	<message key="rt.context.and">AND</message>
+	<message key="rt.context.citesContextDescription">Nếu bài viết được lập chỉ mục trong Google Scholar, bài viết có thể được đi kèm với liên kết "Được trích dẫn bởi X", dẫn đến danh sách các tác phẩm trích dẫn nó. Đồng thời, Google Scholar sẽ liệt kê tất cả các mục trích dẫn tiêu đề và tác giả. Để truy cập các tài nguyên trực tuyến chỉ khả dụng thông qua thư viện nghiên cứu của bạn, bạn có thể chuyển đến Tùy chọn Scholar trong Google Scholar và kích hoạt Liên kết Thư viện cho tổ chức của bạn.</message>
+	<message key="rt.context">Bối cảnh</message>
+	<message key="rt.context.defineTermsDescription">Nếu mục đó là tệp HTML (chứ không phải PDF), việc nhấp đúp vào bất kỳ từ nào trong văn bản sẽ làm cho nó xuất hiện trong hộp Word-to-Define. Nếu không, các từ có thể được nhập hoặc dán vào hộp. Để tìm hiểu thêm về tài nguyên được tìm kiếm, hãy nhấp vào GIỚI THIỆU. Các tài nguyên này đã được chọn vì sự liên quan của chúng và quyền truy cập mở (miễn phí) của chúng với tất cả hoặc một phần nội dung của chúng.</message>
+	<message key="rt.context.description">Mô tả</message>
+	<message key="rt.context.order">Đặt trước</message>
+	<message key="rt.contexts">Các bối cảnh</message>
+	<message key="rt.context.searchDescription">Các thuật ngữ tìm kiếm đã được tác giả chọn. Chúng có thể được thay đổi hoặc xóa bởi người đọc, vì hai hoặc ba cụm từ hoặc cụm từ ngắn, chính xác đã tạo ra các tìm kiếm Boolean (AND) tốt nhất. Để tìm hiểu thêm về các tài nguyên được tìm kiếm, hãy nhấp vào GIỚI THIỆU. Các tài nguyên này đã được lựa chọn để phù hợp và mở (miễn phí) quyền truy cập vào tất cả hoặc một phần nội dung của chúng.</message>
+	<message key="rt.context.searchTerms">Tìm kiếm điều khoản</message>
+	<message key="rt.context.termToDefine">Từ để xác định</message>
+	<message key="rt.context.title">Chức vụ</message>
+	<message key="rt.emailAuthor">Email cho tác giả</message>
+	<message key="rt.email.needLogin"><![CDATA[* Requires <a target="_parent" href="{$loginUrl}">registration</a>]]></message>
+	<message key="rt.email.sent">Tin nhắn của bạn đã được gửi đi.</message>
+	<message key="rt.findingReferences">Đang tìm tài liệu tham khảo</message>
+	<message key="rt.findingReferences.googleScholar">Google Scholar</message>
+	<message key="rt.findingReferences.windowsLiveAcademic">Windows Live Academic</message>
+	<message key="rt.lookUp">Tra cứu các thuật ngữ</message>
+	<message key="rt.metadata.dublinCore.contributor">Người đóng góp</message>
+	<message key="rt.metadata.dublinCore.coverage">Phủ sóng</message>
+	<message key="rt.metadata.dublinCore.date">Ngày</message>
+	<message key="rt.metadata.dublinCore.description">Mô tả</message>
+	<message key="rt.metadata.dublinCore">Dublin Core</message>
+	<message key="rt.metadata.dublinCore.format">Chỉnh sửa</message>
+	<message key="rt.metadata.dublinCore.identifier">Nhận dạng</message>
+	<message key="rt.metadata.dublinCore.language">Ngôn ngữ</message>
+	<message key="rt.metadata.dublinCore.publisher">Nhà xuất bản</message>
+	<message key="rt.metadata.dublinCore.relation">Liên quan</message>
+	<message key="rt.metadata.dublinCore.rights">Quyền</message>
+	<message key="rt.metadata.dublinCore.source">Nguồn</message>
+	<message key="rt.metadata.dublinCore.subject">Chủ đề</message>
+	<message key="rt.metadata.dublinCore.title">Chức vụ</message>
+	<message key="rt.metadata.dublinCore.type">Loại</message>
+	<message key="rt.metadata.forThisDocument">Metadata cho tài liệu này</message>
+	<message key="rt.metadata.pkp.abstract">Tóm tắt</message>
+	<message key="rt.metadata.pkp.copyright">Bản quyền và quyền </message>
+	<message key="rt.metadata.pkp.coverage">Vị trí không gian địa lý, thời gian, mẫu nghiên cứu (giới tính, tuổi tác, v.v.)</message>
+	<message key="rt.metadata.pkp.date">(YYYY-MM-DD)</message>
+	<message key="rt.metadata.pkp.discipline">(Các) quy tắc</message>
+	<message key="rt.metadata.pkp.format">Định dạng tệp</message>
+	<message key="rt.metadata.pkp.genre"><![CDATA[Trạng thái & thể loại]]></message>
+	<message key="rt.metadata.pkpItem">PKP Metadata Items</message>
+	<message key="rt.metadata.pkp.language">English=en</message>
+	<message key="rt.metadata.pkp.publisher">Cơ quan tổ chức, địa điểm</message>
+	<message key="rt.metadata.pkp.source">Chức vụụ; vol., no. (year)</message>
+	<message key="rt.metadata.pkp.sponsors">(Các) Nhà tài trợ</message>
+	<message key="rt.metadata.pkp.subject">Từ khoá</message>
+	<message key="rt.metadata.pkp.suppFiles">Tập tin bổ sung</message>
+	<message key="rt.metadata.pkp.title">Tiêu đề của tài liệu</message>
+	<message key="rt.metadata.pkp.type">Loại</message>
+	<message key="rt.metadata.pkp.uri">Mã định danh nguồn đồng nhất</message>
+	<message key="rt.printVersion">Phiên bản in</message>
+	<message key="rt.readingTools">Công cụ đọc</message>
+	<message key="rt.relatedItems">Mục có liên quan</message>
+	<message key="rt.reviewPolicy">Chính sách đánh giá</message>
+	<message key="rt.search.description">Mô tả</message>
+	<message key="rt.searches">Tìm kiếm</message>
+	<message key="rt.search.order">Đặt trước</message>
+	<message key="rt.search">TÌm kiếm</message>
+	<message key="rt.search.searchPost">Đăng dữ liệu</message>
+	<message key="rt.search.searchUrl">Tìm URL</message>
+	<message key="rt.search.suggest">Đề xuất nguồn</message>
+	<message key="rt.search.title">Tiêu đề</message>
+	<message key="rt.search.url">URL</message>
+	<message key="rt.suppFiles.download">Download</message>
+	<message key="rt.suppFiles">Tập tin bổ sung</message>
+	<message key="rt.suppFiles.viewMetadata">Indexing metadata</message>
+	<message key="rt.version.description">Mô tả</message>
+	<message key="rt.version.key">Chìa khoá</message>
+	<message key="rt.version.locale">Định vị</message>
+	<message key="rt.versions">Liên quan</message>
+	<message key="rt.version.title">Tiêu đề</message>
+	<message key="rt.version">Phiên bản</message>
+	<message key="rt.viewMetadata">Indexing metadata</message>
+</locale>

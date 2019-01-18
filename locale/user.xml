@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/user.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="vi_VN" full_name="Tiếng Việt">
+	<message key="user.accountInformation"> Thông tin Tài khoản</message>
+	<message key="user.affiliation"> Liên kết</message>
+	<message key="user.affiliation.description"> (Tổ chức của bạn, ví dụ: "Đại học Simon Fraser")</message>
+	<message key="user.affiliations"> Chi nhánh</message>
+	<message key="user.authorization.accessDenied"> Truy cập bị từ chối.</message>
+	<message key="user.authorization.processAuthenticationTokenRequired"> Mã thông báo xác thực quy trình bị thiếu hoặc không hợp lệ.</message>
+	<message key="user.authorization.contextRequired"> Bạn không thể gọi thao tác này mà không có ngữ cảnh (báo chí, tạp chí, hội nghị, v.v.).</message>
+	<message key="user.authorization.loginRequired"> Yêu cầu đăng nhập.</message>
+	<message key="user.authorization.privateOperation"> Thao tác bạn đã cố truy cập là riêng tư hoặc không tồn tại.</message>
+	<message key="user.authorization.roleBasedAccessDenied"> Vai trò hiện tại không có quyền truy cập vào thao tác này.</message>
+	<message key="user.authorization.assignedStageRoleBasedAccessDenied"> Bạn chưa được chỉ định cho bài gửi này với vai trò được phép truy cập hoạt động này</message>
+	<message key="user.authorization.userGroupRequired"> Bạn phải thiết lập một nhóm người dùng hợp lệ để truy cập hoạt động này.</message>
+	<message key="user.authorization.managerRequired"> Người dùng có vai trò Người quản lý (tức là Trình chỉnh sửa sản xuất) phải được chỉ định cho giai đoạn trước khi bạn có thể tiếp tục.</message>
+	<message key="user.authorization.accessibleWorkflowStage"> Bạn hiện không có quyền truy cập vào giai đoạn đó của luồng công việc.</message>
+	<message key="user.authorization.workflowStageRequired"> Giai đoạn công việc không được chỉ định.</message>
+	<message key="user.authorization.pluginRequired"> Plugin chưa được chỉ định và là bắt buộc.</message>
+	<message key="user.authorization.invalidReviewAssignment"> Bạn không có quyền truy cập bài tập đánh giá này.</message>
+	<message key="user.authorization.submissionQuery"> Bạn không có quyền truy cập vào cuộc thảo luận này.</message>
+	<message key="user.biography"> Tuyên bố sinh học (ví dụ: bộ phận và xếp hạng)</message>	
+	<message key="user.changeMyPassword">Đổi mật khẩu của tôi</message>
+	<message key="user.changePassword">Đổi mật khẩu</message>
+	<message key="user.dateLastLogin">Đăng nhập lần cuối</message>
+	<message key="user.dateRegistered">Ngày đăng ký</message>
+	<message key="user.editMyProfile">Chỉnh sửa hồ sơ của tôi</message>
+	<message key="user.email">Email</message>
+	<message key="user.firstName">Họ</message>
+	<message key="user.initialsExample">Joan Alice Smith = JAS</message>
+	<message key="user.initials">Tên viết tắt</message>
+	<message key="user.interests">Xem xét sở thích</message>
+	<message key="user.interests.description">(Tách biệt sở thích bằng cách nhấn phím enter hoặc dấu phẩy)</message>
+	<message key="user.gossip">Ghi chú biên tập</message>
+	<message key="user.gossip.description">Ghi lại ghi chú về người đánh giá này mà bạn muốn hiển thị cho các quản trị viên, người quản lý và tất cả người chỉnh sửa khác. Ghi chú sẽ hiển thị cho các bài tập đánh giá trong tương lai.</message>
+	<message key="user.group">Nhóm người dùng</message>
+	<message key="user.lastName">Tên</message>
+	<message key="user.profile.form.profileImageInvalid">Định dạng hình ảnh hoặc hình ảnh hồ sơ không hợp lệ quá lớn. Các định dạng được chấp nhận là .gif, .jpg, or .png, và hình ảnh không vượt quá 150x150 pixels.</message>
+	<message key="user.login.accountDisabledWithReason">Tài khoản của bạn đã bị vô hiệu vì lý do sau: {$reason}</message>
+	<message key="user.login.accountDisabled">Tài khoản của bạn đã bị vô hiệu hóa. Vui lòng liên hệ với quản trị viên để biết thêm thông tin.</message>
+	<message key="user.login.accountNotValidated">Chúng tôi đã gửi email xác nhận cho bạn theo địa chỉ {$email}. Vui lòng làm theo hướng dẫn trong email đó để kích hoạt tài khoản mới của bạn. Nếu bạn không thấy email, vui lòng kiểm tra xem email có được đưa vào thư mục spam của bạn hay không.</message>
+	<message key="user.login.activate">Kích hoạt tài khoản</message>
+	<message key="user.login.activated">Cảm ơn bạn đã kích hoạt tài khoản của mình. Bây giờ bạn có thể đăng nhập bằng thông tin đăng nhập bạn đã cung cấp khi tạo tài khoản.</message>
+	<message key="user.login.changePasswordInstructions"><![CDATA[Bạn phải tạo một mật khẩu mới trước khi đăng nhập vào trang web này.<br /><br />Vui lòng nhập tên người dùng và mật khẩu hiện tại và mật khẩu mới của bạn bên dưới để thay đổi mật khẩu cho tài khoản của bạn]]></message>
+	<message key="user.login.forgotPassword">Quên mật khẩu?</message>
+	<message key="user.login.loginError">Sai tên ngừoi dùng hoặc mật khẩu. Vui lòng thử lại</message>
+	<message key="user.login">Đăng nhập</message>
+	<message key="user.login.lostPassword.confirmationSent">Một xác nhận đã được gửi đến địa chỉ email của bạn. Vui lòng làm theo hướng dẫn trong email để đặt lại mật khẩu của bạn.</message>
+	<message key="user.login.lostPassword.invalidHash">Rất tiếc, liên kết bạn nhấp vào đã hết hạn hoặc không hợp lệ. Vui lòng thử đặt lại mật khẩu của bạn.</message>
+	<message key="user.login.lostPassword.invalidUser">Không tồn tại người dùng nào với địa chỉ email được chỉ định.</message>
+	<message key="user.login.lostPassword.passwordSent">Một mật khẩu mới đã được gửi đến địa chỉ email của bạn. Bây giờ bạn có thể đăng nhập vào trang web bằng mật khẩu mới của bạn.</message>
+	<message key="user.login.registeredEmail">Email của người dùng đã được đăng kí</message>
+	<message key="user.login.registrationComplete">Đăng ký hoàn tất</message>
+	<message key="user.login.registrationComplete.instructions">Cảm ơn đã đăng ký! Bạn muốn làm gì tiếp theo?</message>
+	<message key="user.login.registrationComplete.manageSubmissions">Xem nội dung gửi</message>
+	<message key="user.login.registrationComplete.newSubmission">Tạo mới nội dung gửi</message>
+	<message key="user.login.registrationComplete.continueBrowsing">Tiếp tục duyệt web</message>
+	<message key="user.login.registrationPendingValidation">Đăng ký đang chờ xác minh</message>
+	<message key="user.login.rememberUsernameAndPassword">Giữ trạng thái đăng nhập</message>
+	<message key="user.login.resetPassword">Đặt lại mật khẩu</message>
+	<message key="user.logOut">Đăng xuất</message>
+	<message key="user.logOutAs">Đăng xuất với tư cách</message>
+	<message key="user.hello">Xin chào, </message>
+	<message key="user.mailingAddress">Địa chỉ gửi thư</message>
+	<message key="user.middleName">Tên Lót</message>
+	<message key="user.myAccount">Tài khỏan của tôi</message>
+	<message key="user.name">Tên</message>
+	<message key="user.password">Mật khẩu</message>
+	<message key="user.repeatPassword">Lặp lại mật khẩu</message>
+	<message key="user.phone">Phone</message>
+	<message key="user.profile.changePasswordInstructions">Nhập mật khẩu hiện tại và mật khẩu mới của bạn bên dưới để thay đổi mật khẩu cho tài khoản của bạn.</message>
+	<message key="user.profile.editProfile">Chỉnh sửa hồ sơ</message>
+	<message key="user.profile.form.countryRequired">Yêu cầu nhập quốc gia.</message>
+	<message key="user.profile.form.emailRequired">Yêu cầu địa chỉ email hợp lệ.</message>
+	<message key="user.profile.form.affiliationRequired">Cần có liên kết.</message>
+	<message key="user.profile.form.firstNameRequired">Yêu cầu nhập họ</message>
+	<message key="user.profile.form.lastNameRequired">Yêu cầu nhập tên</message>
+	<message key="user.profile.form.mailingAddressRequired">Địa chỉ gửi thư là bắt buộc.</message>
+	<message key="user.profile.form.newPasswordRequired">Bạn cần điền mật khẩu của mình.</message>
+	<message key="user.profile.form.oldPasswordInvalid">Mật khẩu hiện tại bạn đã nhập không chính xác.</message>
+	<message key="user.profile.form.openAccessNotifications">Thông báo email truy cập mở</message>
+	<message key="user.profile.form.passwordRequired">Yêu cầu mật khẩu.</message>
+	<message key="user.profile.form.passwordSameAsOld">Mật khẩu mới của bạn giống với mật khẩu cũ của bạn.</message>
+	<message key="user.profile.form.profileImage">Hình ảnh hồ sơ</message>
+	<message key="user.profile.form.publishedNotifications">Thông báo emailvề vấn đề mới được xuất bản</message>
+	<message key="user.profile.form.urlInvalid">URL được chỉ định không hợp lệ. Vui lòng kiểm tra lại URL và thử lại. (Hint: Try adding http:// to the beginning of the URL.)</message>
+	<message key="user.profile.form.usergroupRequired">Yêu cầu nhóm ngừoi dùng.</message>
+	<message key="user.profile.form.usernameRequired">Yêu cầu tên truy cập.</message>
+	<message key="user.profile.form.privacyConsentRequired">Bạn phải đồng ý với các điều khoản của điều khoản về quyền riêng tư.</message>
+	<message key="user.profile.leavePasswordBlank">Để trống các trường mật khẩu để giữ mật khẩu hiện tại.</message>
+	<message key="user.profile.newPassword">Mật khẩu mới</message>
+	<message key="user.profile.oldPassword">Mật khẩu hiện tại</message>
+	<message key="user.profile">Hồ sơ</message>
+	<message key="user.profile.publicProfile">Hồ sơ người dùng</message>
+	<message key="user.profile.repeatNewPassword">Lặp lại mật khẩu mới</message>
+	<!-- Login -->
+	<message key="user.login.registerNewAccount">Đăng ký</message>
+	<message key="user.login.resetPasswordInstructions">Nhập địa chỉ email tài khoản của bạn vào bên dưới và một email sẽ được gửi kèm theo hướng dẫn về cách đặt lại mật khẩu của bạn.</message>
+
+	<message key="user.register.form.privacyConsent"><![CDATA[Có, tôi đồng ý thu thập và lưu trữ dữ liệu của mình theo <a href="{$privacyUrl}" target="_blank">Policy Statement</a>.]]></message>
+	<message key="user.register.form.emailConsent">Có, tôi muốn được thông báo về các ấn phẩm và thông báo mới.</message>
+	<message key="user.register.form.emailExists">Địa chỉ email đã chọn đã được người dùng khác sử dụng.</message>
+	<message key="user.register.form.passwordsDoNotMatch">Mật khẩu không trùng khớp.</message>
+	<message key="user.register.form.emailsDoNotMatch">Các trường địa chỉ email không khớp.</message>
+	<message key="user.register.form.usernameAlphaNumeric">Tên người dùng chỉ có thể chứa các ký tự chữ và số chữ thường, dấu gạch dưới và dấu gạch ngang và phải bắt đầu và kết thúc bằng ký tự chữ và số.</message>
+	<message key="user.register.form.userGroupRequired">Phải chọn ít nhất một vai trò.</message>
+	<message key="user.register.form.usernameExists">Tên người dùng đã chọn đã được người dùng khác sử dụng.</message>
+	<message key="user.register.form.passwordLengthRestriction">Mật khẩu phải có ít nhất {$length} ký tự.</message>
+	<message key="user.register.registerAs">Đăng ký tại {$contextName} như...</message>
+	<message key="user.register">Đăng ký</message>
+	<message key="user.register.usernameRestriction">Tên người dùng chỉ được chứa chữ thường, số và dấu gạch ngang / dấu gạch dưới.</message>
+	<message key="user.register.registrationCompleted"><![CDATA[Bạn đã đăng ký thành công. <a href="{$profileUrl}">Click here</a> to complete your user profile.]]></message>
+	<message key="user.role.assistant">Trợ giúp</message>
+	<message key="user.role.author">Tác giả</message>
+	<message key="user.role.author_s">(các) Tác giả</message>
+	<message key="user.role.authors">Các tác giả</message>
+	<message key="user.role.editor">Người biên tập</message>
+	<message key="user.role.editors">Những người biên tập</message>
+	<message key="user.role.reader">Người đọc</message>
+	<message key="user.role.readers">Những người đọc</message>
+	<message key="user.role.reviewer">Người đánh gía</message>
+	<message key="user.role.reviewers">Những người đánh gía</message>
+	<message key="user.role.siteAdmin">Người quản trị trang</message>
+	<message key="user.role.siteAdmins">Những người quản trị trang</message>
+	<message key="user.role.copyeditor">Người biên soạn</message>
+	<message key="user.role.copyeditors">Những người biên soạnn</message>
+	<message key="user.role.proofreader">Người sửa lỗi</message>
+	<message key="user.role.proofreaders">Những người sửa lỗi</message>
+	<message key="user.role.layoutEditor">Người chỉnh sửa bố cục</message>
+	<message key="user.role.layoutEditors">Những người chỉnh sửa bố cục</message>
+	<message key="user.roles">Vai trò</message>
+	<message key="user.salutation">Lời chào</message>
+	<message key="user.sendPassword">Xác nhận</message>
+	<message key="user.sendPassword.description">Gửi cho tôi một email xác nhận bao gồm tên người dùng và mật khẩu của tôi</message>
+	<message key="user.signature">Chữ ký</message>
+	<message key="user.suffix">Hậu tố</message>
+	<message key="user.title">Tiêu đề</message>
+	<message key="user.url">URL</message>
+	<message key="user.userHome">Trang chủ người dùng</message>
+	<message key="user.username">Tên người dùng</message>
+	<message key="user.workingLanguages">Ngôn ngữ làm việc</message>
+	<message key="user.orcid">ORCID iD</message>
+	<message key="user.orcid.orcidInvalid">ORCID bạn vừa nhập không có thật. Vui lòng nhập đúng The OR (e.g. "http://orcid.org/0000-0002-1825-0097").<97").</message>
+	<message key="user.profile.identity">Danh tính</message>
+	<message key="user.profile.contact">Liên hệ</message>
+	<message key="user.profile.public">Công cộng</message>
+	<message key="user.apiKey">API Key</message>
+	<message key="user.apiKeyEnabled">Bật các ứng dụng bên ngoài bằng khóa API để truy cập tài khoản này</message>
+	<message key="user.apiKey.generate">Tạo khóa API mới</message>
+	<message key="user.apiKey.generateWarning">Tạo khóa API mới sẽ làm mất hiệu lực bất kỳ khóa hiện có nào cho người dùng này.</message>
+	<message key="user.apiKey.secretRequired">Trước khi tạo khóa API, quản trị viên trang web của bạn phải đặt bí mật trong tệp cấu hình("api_key_secret").</message>
+	<message key="user.privacyLink"><![CDATA[Dữ liệu của bạn được lưu trữ theo <a href="{$privacyUrl}" target="_blank">privacy statement</a>.]]></message>
+</locale>

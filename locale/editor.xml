@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/editor.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="vi_VN" full_name="Tiếng Việt">
+	<message key="editor.submissionLibrary">Thư viện bài gửi</message>
+	<message key="editor.review.notInitiated">Quá trình đánh giá vẫn chưa được bắt đầu</message>
+	<message key="editor.submission.copyediting.personalMessageToUser">Nhắn tin tới người dùng</message>
+	<message key="editor.submission.externalReviewDescription">Chọn tập tin ở dưới để gửi chúng tới bước đánh giá</message>
+	<!-- Add file or auditor to editor/audit grids -->
+	<message key="editor.submission.fileAuditor.form.fileRequired">Bạn phải chọn ít nhất một tập tin để chỉ định cho người dùng.</message>
+	<message key="editor.submission.fileAuditor.form.messageRequired">Bạn phải đính kèm một tin nhắn riêng</message>
+	<message key="editor.submission.fileAuditor.skipEmail">Không gửi email tới người nghe.</message>
+	<message key="editor.submission.fileAuditor.form.userRequired">Bạn phải chọn một người dùng để chỉ định</message>
+	<message key="editor.submission.uploadSelectFiles">Đăng tải/Chọn tập tin</message>
+	<message key="editor.submission.selectFiles">Chọn tập tin</message>
+	<message key="editor.submission.revisions">Bản sửa đổi</message>
+	<message key="editor.submission.review.reviewersDescription"><![CDATA[Use <em>+Add Reviewer</em> to invite readers to review the submission files. The notebook icon indicates that a review has been submitted, which is then checked <em>Acknowledged</em> after it has been consulted. When reviews are overdue, a red envelope icon appears for reminding reviewers.]]></message>
+	<message key="editor.submission.addReviewer">Thêm ngừoi đánh giá</message>
+	<message key="editor.submission.findAndSelectReviewer">Định vị người đánh giá</message>
+	<message key="editor.submission.findAndSelectUser">Định vị người dùng</message>
+	<message key="editor.submission.fileList.includeAllStages">Hiển thị tệp từ tất cả các giai đoạn công việc có thể truy cập.</message>
+	<message key="editor.submission.review.currentFiles">Tệp đánh giá hiện tại cho vòng {$round}</message>
+	<message key="editor.submission.backToSearch">Quay lại tìm kiếm</message>
+	<message key="editor.review.createReviewer">Tạo người đánh giá mới</message>
+	<message key="editor.review.enrollReviewer.short">Đăng ký người dùng hiện tại</message>
+	<message key="editor.review.unassignReviewer">Bỏ gán người đánh giá</message>
+	<message key="editor.submissionReview.reviewType">Loại đánh giá</message>
+	<message key="editor.submissionReview.sendEmail">Gửi thông báo bằng email đến tác giả: {$authorName}</message>
+	<message key="editor.submissionReview.sendEmail.editors">Gửi thông báo bằng email đến người biên tập: {$editorNames}</message>
+	<message key="editor.submissionReview.skipEmail">Không gửi thông báo bằng email</message>
+	<message key="editor.submissionReview.open">Mở</message>
+	<message key="editor.submissionReview.blind">Blind</message>
+	<message key="editor.submissionReview.doubleBlind">Double-blind</message>
+	<message key="editor.submissionReview.restrictFiles">Tập tin được đánh giá</message>
+	<message key="editor.submissionReview.restrictFiles.hide">Đóng lựa chọn tệp</message>
+	<message key="editor.submissionReview.editReview">Sửa đánh giá</message>
+	<message key="editor.review.anonymousReviewer">Người đánh giá nặc danh</message>
+	<message key="editor.review.personalMessageToReviewer">Email được gửi tới người đánh giá</message>
+	<message key="editor.review.importantDates">Ngày quan trọng</message>
+	<message key="editor.review.uploadRevision">Tải lên bản sửa đổi</message>
+	<message key="editor.review.newReviewRound">Yêu cầu vòng đánh giá mới</message>
+	<message key="editor.review.NotifyAuthorRevisions">Bản sửa đổi sẽ không phải qua một vòng đánh giá ngang hàng mới.</message>
+	<message key="editor.review.NotifyAuthorResubmit">Bản sửa đổi sẽ phải qua một vòng đánh giá ngang hàng mới.</message>
+	<message key="editor.review.dateAccepted">Xem lại Ngày chấp nhận </message>
+	<message key="editor.review.reviewsAdded">Bài đánh giá được thêm vào nội dung thư.</message>
+	<message key="editor.review.noReviews"> Không có bài đánh giá ngang hàng nào để nhập</message>
+	<message key="editor.review.reminder">Nhắc nhở đánh giá</message>
+	<message key="editor.review.thankReviewer">Cảm ơn người đánh giá</message>
+	<message key="editor.review.reminderError">Lỗi khi gửi nhắc nhở đánh giá</message>
+	<message key="editor.review.thankReviewerError">Lỗi khi gửi cảm ơn người đánh giá</message>
+	<message key="editor.review.skipEmail">Không gửi email tới người đánh giá</message>
+	<message key="editor.review.sendReminder">Gửi nhắc nhở</message>
+	<message key="editor.review.readReview">Đọc đánh giá</message>
+	<message key="editor.review.readNewReview">Đọc đánh giá mới</message>
+	<message key="editor.review.responseDue">Ngày đến hạn trả lời: {$date}</message>
+	<message key="editor.review.requestAccepted">Yêu cầu đã được chấp nhận</message>
+	<message key="editor.review.revertDecision">Hoàn nguyên quyết định</message>
+	<message key="editor.review.reviewDue">Ngày đến hạn đánh giá: {$date}</message>
+	<message key="editor.review.reviewDueDate">>Ngày đến hạn đánh giá</message>
+	<message key="editor.review.reviewCompleted">Hoàn thành đánh giá</message>
+	<message key="editor.review.reviewConfirmed">Xác nhận đánh giá</message>
+	<message key="editor.review.reviewSubmitted">Đã gửi đánh giá</message>
+	<message key="editor.review.reviewerComments">Bình luận của người đánh giá</message>
+	<message key="editor.review.rateReviewer">Đánh giá của người đánh giá</message>
+	<message key="editor.review.rateReviewer.description">Xếp hạng chất lượng của đánh giá được cung cấp. Xếp hạng này không được chia sẻ với người đánh giá.</message>
+	<message key="editor.review.reviewerRating.none">Không có đánh giá</message>
+	<message key="editor.review.mustSelect">Bạn phải chọn một ngừoi đánh giá</message>
+	<message key="editor.review.errorAddingReviewer">Đã xảy ra lỗi khi thêm người đánh giá. Vui lòng thử lại.</message>
+	<message key="editor.review.errorDeletingReviewer">Đã xảy ra lỗi khi xoá người đánh giá. Vui lòng thử lại.</message>
+	<message key="editor.review.userGroupSelect">Đăng ký người dùng với nhóm người đánh giá này</message>
+	<message key="editor.review.unconsiderReviewText">Bạn có muốn đánh dấu bài đánh giá này là chưa được xem xét không? Lịch sử đánh giá sẽ được giữ nguyên.</message>
+	<message key="editor.review.unconsiderReview">Bỏ đánh giá này</message>
+	<message key="editor.review.readConfirmation">Khi bài đánh giá này đã được đọc, hãy nhấn "Xác nhận" để cho biết rằng quá trình đánh giá có thể tiến hành. Nếu người đánh giá đã gửi bài đánh giá của họ ở nơi khác, bạn có thể tải tệp lên dưới và sau đó nhấn "Xác nhận" để tiếp tục.</message>
+	<message key="editor.submission.selectCopyedingFiles">Biên soạn tệp</message>
+	<message key="editor.submission.selectReviewer">Chọn ngừoi đánh giá</message>
+	<message key="editor.submission.taskDueDate">Ngày hoàn thành nhiệm vụ</message>
+	<message key="editor.submission.taskSchedule">Bảng kế hoạch</message>
+	<message key="editor.review.enrollReviewer">Đăng ký người dùng hiện tại làm người đánh giá</message>
+	<message key="editor.submission.noAuditRequested">Không yêu cầu kiểm tra cho tệp này</message>
+	<message key="editor.submission.personalMessageToUser">Email được gửi tới người dùng</message>
+	<message key="editor.submission.proof.reminder">Lời nhắc bằng chứng</message>
+	<message key="editor.submission.editorial.approveCopyeditDescription">Tệp được sao chép cần phải được phê duyệt trước khi có thể gửi tới giai đoạn Sản xuất. Bạn có muốn phê duyệt tệp này không?</message>
+	<message key="editor.submission.editorial.disapproveCopyeditDescription">Việc từ chối tệp được sao chép này sẽ khiến tệp không khả dụng để gửi đến giai đoạn xuất bản. Bạn có muốn từ chối tệp này không?</message>
+	<message key="editor.submission.addAuditor">Chỉ định người kiểm tra</message>
+	<message key="editor.submission.copyedit.manageCopyeditFilesDescription">Bất kỳ tệp nào đã được tải lên bất kỳ giai đoạn gửi nào cũng có thể được thêm vào danh sách Tệp Sao chép bằng cách chọn hộp kiểm bên dưới và nhấp vào Tìm kiếm: tất cả các tệp khả dụng sẽ được liệt kê và có thể được chọn để đưa vào. Các tệp bổ sung chưa được tải lên một giai đoạn có thể được thêm vào danh sách bằng cách nhấp vào liên kết Tải lên tệp.</message>
+	<message key="editor.review">Đánh giá</message>
+	<message key="editor.review.reviewDetails">Chi tiết đánh giá</message>
+	<message key="editor.review.noReviewFilesUploaded">Không có tập tin nào được tải lên</message>
+	<message key="editor.review.noReviewFilesUploaded.details">Bạn chưa tải lên tập tin đánh giá nào</message>
+	<message key="editor.review.emailReviewer">Nhắc nhở bằng email</message>
+	<message key="editor.submission.production.productionReadyFiles">Tập tin sẵn sàng xuất bản</message>
+	<message key="editor.submission.newRound">Vòng đánh giá mới</message>
+	<message key="editor.submissionReview.recordDecision">Ghi lại Quyết định Biên tập</message>
+	<message key="editor.submissionReview.recordRecommendation">Ghi lại đề xuất biên tập</message>
+	<message key="editor.submissionReview.recordRecommendation.notifyEditors">Thông báo cho người biên tập</message>
+	<message key="editor.submissionReview.recordRecommendation.skipEmail">Không gửi email cho người biên tập</message>
+	<message key="editor.submissionReview.recordRecommendation.createDiscussion">Tạo cuộc thảo luận đánh giá về đề xuất này.</message>
+	<message key="editor.submissionReview.recordRecommendation.skipDiscussion">Không tạo cuộc thảo luận đánh giá về đề xuất này.</message>
+	<message key="editor.submission.newRoundDescription">Bạn sắp tạo vòng đánh giá mới cho bài gửi này. Các tệp chưa được sử dụng trong các vòng đánh giá khác được liệt kê bên dưới.</message>
+	<message key="editor.submission.createNewRound">Tạo vòng đánh giá mới</message>
+	<message key="editor.article.reviewForms">Mẫu đánh giá</message>
+	<message key="editor.article.selectReviewForm">Chọn Mẫu đánh giá</message>
+	<message key="editor.article.confirmChangeReviewForm">Cảnh báo: Thay đổi biểu mẫu đánh giá sẽ ảnh hưởng đến bất kỳ câu trả lời của người đánh giá nào đã thực hiện bằng biểu mẫu này. Bạn có chắc muốn tiếp tục không?</message>
+	<message key="editor.submission.noReviewerFilesSelected">Không có tệp nào được chọn</message>
+	<message key="editor.submission.noReviewerFilesSelected.details">Bạn chưa chọn bất kỳ tệp nào để người đánh giá xem xét.</message>
+	<message key="submission.queries.subjectRequired">Yêu cầu chủ đề thảo luận</message>
+	<message key="submission.queries.messageRequired">Yêu cầu tin nhắn thảo luận</message>
+	<message key="submission.queries.attachedFiles">Tập tin được đính kèm</message>
+	<message key="grid.action.editQuery">Chỉnh sửa thảo luận</message>
+	<message key="editor.submission.query.manageQueryNoteFilesDescription">Các tập tin có thể được đính kèm để đưa vào thảo luận này từ danh sách dưới đây.</message>
+	<message key="editor.submission.selectedReviewer">Người đánh giá được chọn</message>
+	<message key="editor.submission.proofreading.approveProof">Bằng chứng phê duyệt</message>
+	<message key="editor.submission.proofreading.revokeProofApproval">Thu hồi phê duyệt bằng chứng</message>
+	<message key="editor.submission.proofreading.confirmCompletion">Phê duyệt bằng chứng này để cho biết việc đọc xong đã hoàn tất và tệp đã sẵn sàng để được xuất bản.</message>
+	<message key="editor.submission.proofreading.confirmRemoveCompletion">Thu hồi phê duyệt cho bằng chứng này để cho biết việc đọc lại bản thảo không còn đầy đủ nữa và tệp chưa sẵn sàng để được xuất bản.</message>
+	<message key="editor.publicIdentificationNumericNotAllowed">Số nhận dạng công khai '{$publicIdentifier}' không được là một chữ số.</message>
+	<message key="editor.publicIdentificationPatternNotAllowed">Mẫu {$pattern} không được phép cho số nhận dạng công khai.</message>
+
+	<!-- Reviewer selection lists -->
+	<message key="reviewer.list.count">{$count} người đánh giá</message>
+	<message key="reviewer.list.itemsOfTotal">{$count} của {$total} người đánh giá</message>
+	<message key="reviewer.list.filterRating">Xếp hạng ít nhất</message>
+	<message key="reviewer.list.activeReviews">{$count} hoạt động</message>
+	<message key="reviewer.list.activeReviewsDescription">Đánh giá hoạt động được chỉ định gần đây</message>
+	<message key="reviewer.list.completedReviews">Hoàn thành đánh giá</message>
+	<message key="reviewer.list.declinedReviews">Yêu cầu đánh giá bị từ chối</message>
+	<message key="reviewer.list.reviewerRating">Tỉ lệ đánh gía của người đánh giá: {$rating}</message>
+	<message key="reviewer.list.daysSinceLastAssignment">{$days} ngày trước</message>
+	<message key="reviewer.list.daySinceLastAssignment">Hôm qua</message>
+	<message key="reviewer.list.daysSinceLastAssignmentDescription">Số ngày kể từ lần xem xét cuối cùng được chỉ định</message>
+	<message key="reviewer.list.averageCompletion">Số ngày trung bình để hoàn tất đánh giá</message>
+	<message key="reviewer.list.neverAssigned">Chưa được chỉ định</message>
+	<message key="reviewer.list.currentlyAssigned">Người đánh giá này đã được chỉ định để xem xét nội dung gửi này.</message>
+	<message key="reviewer.list.warnOnAssign">Người đánh giá này bị khóa vì họ đã được chỉ định vai trò cho phép họ xem danh tính của tác giả. Đánh giá ngang hàng mù không thể được đảm bảo. Bạn có muốn mở khóa người đánh giá này không?</message>
+	<message key="reviewer.list.warnOnAssignUnlock">Mở khoá</message>
+	<message key="reviewer.list.reviewInterests">Đánh giá quan tâm</message>
+	<message key="reviewer.list.biography">Tiểu sử</message>
+</locale>

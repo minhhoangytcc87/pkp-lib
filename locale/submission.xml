@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/submission.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="vi_VN" full_name="Tiếng Việt">
+	<!-- Author Submission -->
+	<message key="author.submit.submissionCitations">Cung cấp danh sách các tham chiếu đã định dạng cho các tác phẩm được trích dẫn trong bài gửi này. Vui lòng tách riêng các tham chiếu riêng lẻ bằng một dòng trống.</message>
+	<message key="author.submission.roundStatus.reviewsReady">Các đánh giá mới đã được gửi và đang được biên tập viên xem xét.</message>
+	<message key="submission.confirm.message">Nội dung gửi của bạn đã được tải lên và sẵn sàng để được gửi. Bạn có thể quay lại xem xét và điều chỉnh bất kỳ thông tin nào bạn đã nhập trước khi tiếp tục. Khi bạn đã sẵn sàng, hãy nhấp vào "Hoàn tất gửi".</message>
+	<message key="submission.submit.availableUserGroups">Gửi như</message>
+	<message key="submission.submit.availableUserGroupsDescription">Chọn vai trò mô tả tốt nhất đóng góp của bạn cho nội dung gửi này.</message>
+	<message key="submission.submit.contactConsent">Liên hệ tương ứng</message>
+	<message key="submission.submit.contactConsentDescription">Có, tôi muốn được liên hệ về nội dung gửi này.</message>
+	<message key="submission.submit.userGroupDescriptionManagers">Chọn bất kỳ vai trò nào sau đây nếu bạn muốn tự mình có thể chỉnh sửa và xuất bản bản trình này: {$managerGroups}</message>
+	<message key="submission.submit.submissionChecklist">Yêu cầu gửi</message>
+	<message key="submission.submit.submissionChecklistDescription">Bạn phải đọc và xác nhận rằng bạn đã hoàn thành các yêu cầu dưới đây trước khi tiếp tục.</message>
+	<message key="submission.submit.submissionComplete">Gửi hoàn tất</message>
+	<message key="submission.submit.submissionCompleteThanks">Cảm ơn bạn đã quan tâm đến việc xuất bản {$contextName}.</message>
+	<message key="submission.submit.copyrightNoticeAgreementLabel">Xác nhận tuyên bố bản quyền</message>
+	<message key="submission.submit.copyrightNoticeAgree">Có, tôi đồng ý tuân theo các điều khoản của bản tuyên bố bản quyền.</message>
+	<message key="submission.submit.whatNext">Chuyện gì xảy ra tiếp theo?</message>
+	<message key="submission.submit.whatNext.forNow">Bây giờ, bạn có thể:</message>
+	<message key="submission.submit.whatNext.review">Đánh giá bài gửi này</message>
+	<message key="submission.submit.whatNext.create">Tạo bài gửi mới</message>
+	<message key="submission.submit.whatNext.return">Quay lại trang tổng quan của bạn</message>
+	<message key="submission.submit.extendedMetadata">Siêu dữ liệu mở rộng</message>
+
+	<!-- FIXME: move to meta-data plugins -->
+	<!-- messages used by meta-data filters -->
+	<message key="metadata.filters.crossref.settings.email.displayName">Email đăng ký CrossRef</message>
+	<message key="metadata.filters.crossref.settings.email.validationMessage">Vui lòng nhập email đăng ký CrossRef hợp lệ. Bạn có thể đăng ký email miễn phí trên trang web CrossRef.</message>
+	<message key="metadata.filters.isbndb.settings.apiKey.displayName">ISBNdb API Key</message>
+	<message key="metadata.filters.isbndb.settings.apiKey.validationMessage">Vui lòng nhập khóa API ISBNdb của bạn. Nếu bạn chưa có khóa, bạn có thể yêu cầu một khóa miễn phí từ dự án ISBNdb.</message>
+	<message key="metadata.filters.pubmed.settings.email.displayName">Email đăng ký PubMed</message>
+	<message key="metadata.filters.pubmed.settings.email.validationMessage">Vui lòng nhập email đăng ký PubMed hợp lệ nếu bạn có.</message>
+	<message key="metadata.filters.worldcat.settings.apiKey.displayName">WorldCat API Key</message>
+	<message key="metadata.filters.worldcat.settings.apiKey.validationMessage">Vui lòng nhập email đăng ký WorldCat API hợp lệ nếu bạn có..</message>
+	<message key="metadata.filters.paracite.settings.citationModule.displayName">Module đã trích dẫn</message>
+	<message key="metadata.filters.paracite.settings.citationModule.validationMessage">Vui lòng chọn một trong các module trích dẫn đã cho.</message>
+	<message key="metadata.filters.settings.isOptional.displayName">Không sử dụng theo mặc định (sẽ vẫn có sẵn cho trình chỉnh sửa)</message>
+	<message key="metadata.filters.settings.isOptional.validationMessage">Lỗi bên trong. Giá trị không hợp lệ đã được đăng cho cài đặt 'bộ lọc tùy chọn'. Vui lòng báo cáo lỗi này.</message>
+
+	<!-- messages shared between MD schemas -->
+	<message key="metadata.property.displayName.author">Tác giả</message>
+	<message key="metadata.property.validationMessage.author">Để có kết quả tốt nhất, các tác giả phải nhập theo định dạng sau: Coleman Jr, D. (Ralf) Dr.</message>
+	<message key="metadata.property.displayName.editor">Biên tập viên</message>
+	<message key="metadata.property.validationMessage.editor">Để có kết quả tốt nhất, các biên tập viên phải nhập theo định dạng sau: Coleman Jr, D. (Ralf) Dr.</message>
+
+	<!-- NLM-specific messages -->
+	<message key="metadata.property.displayName.article-title">Tựa đề/Tiêu đề trang</message>
+	<message key="metadata.property.validationMessage.article-title">Vui lòng nhập Tựa đề/Tiêu đề trang hợp lệ</message>
+	<message key="metadata.property.displayName.source">Tiêu đề xuất bản</message>
+	<message key="metadata.property.validationMessage.source">Vui lòng nhập tiêu đề xuất bản hợp lệ.</message>
+	<message key="metadata.property.displayName.date">Ngày xuất bản</message>
+	<message key="metadata.property.validationMessage.date">Vui lòng nhập ngày xuất bản hợp lệ (format: YYYY-MM-DD).</message>
+	<message key="metadata.property.displayName.access-date">Ngày truy cập</message>
+	<message key="metadata.property.validationMessage.access-date">Vui lòng nhập ngày truy cập hợp lệ (format: YYYY-MM-DD).</message>
+	<message key="metadata.property.displayName.issue">Vấn đề</message>
+	<message key="metadata.property.validationMessage.issue">Vui lòng nhập Vấn đề hợp lệ.</message>
+	<message key="metadata.property.displayName.volume">Số phát hành</message>
+	<message key="metadata.property.validationMessage.volume">Vui lòng nhập Số phát hành hợp lệ.</message>
+	<message key="metadata.property.displayName.season">Mùa</message>
+	<message key="metadata.property.validationMessage.season">Vui lòng nhập số nhận dạng mùa hợp lệ.</message>
+	<message key="metadata.property.displayName.chapter-title">Tiêu đề chương</message>
+	<message key="metadata.property.validationMessage.chapter-title">Vui lòng nhập tiêu đề chương hợp lệ.</message>
+	<message key="metadata.property.displayName.edition">Phiên bản</message>
+	<message key="metadata.property.validationMessage.edition">Vui lòng nhập một ấn bản hợp lệ.</message>
+	<message key="metadata.property.displayName.series">Chuỗi</message>
+	<message key="metadata.property.validationMessage.series">Vui lòng nhập một chuỗi hợp lệ</message>
+	<message key="metadata.property.displayName.supplement">Phần bổ sung</message>
+	<message key="metadata.property.validationMessage.supplement">Vui lòng nhập một phần bổ sung hợp lệ.</message>
+	<message key="metadata.property.displayName.conf-date">Ngày hội nghị</message>
+	<message key="metadata.property.validationMessage.conf-date">Vui lòng nhập ngày hội nghị hợp lệ (format: YYYY-MM-DD).</message>
+	<message key="metadata.property.displayName.conf-loc">Địa điểm hội nghị</message>
+	<message key="metadata.property.validationMessage.conf-loc">Vui lòng nhập địa điểm hội nghị hợp lệ</message>
+	<message key="metadata.property.displayName.conf-name">Tên hội nghị</message>
+	<message key="metadata.property.validationMessage.conf-name">Vui lòng nhập tên hội nghị hợp lệ.</message>
+	<message key="metadata.property.displayName.conf-sponsor">Nhà tài trợ hội nghị</message>
+	<message key="metadata.property.validationMessage.conf-sponsor">Vui lòng nhập nhà tài trợ hội nghị hợp lệ.</message>
+	<message key="metadata.property.displayName.institution">Tổ chức giáo dục</message>
+	<message key="metadata.property.validationMessage.institution">Vui lòng nhập một tổ chức hợp lệ.</message>
+	<message key="metadata.property.displayName.fpage">Trang đầu tiên</message>
+	<message key="metadata.property.validationMessage.fpage">Vui lòng nhập trang đầu tiên hợp lệ (phải là một số).</message>
+	<message key="metadata.property.displayName.lpage">Trang cuối cùng</message>
+	<message key="metadata.property.validationMessage.lpage">Vui lòng nhập trang cuối cùng hợp lệ (phải là một số)</message>
+	<message key="metadata.property.displayName.size">Số trang</message>
+	<message key="metadata.property.validationMessage.size">Vui lòng nhập tổng số trangg hợp lệ (phải là một số)</message>
+	<message key="metadata.property.displayName.publisher-loc">Nơi xuất bản</message>
+	<message key="metadata.property.validationMessage.publisher-loc">Vui lòng nhập vị trí nhà xuất bản hợp lệ.</message>
+	<message key="metadata.property.displayName.publisher-name">Tên nhà xuất bản</message>
+	<message key="metadata.property.validationMessage.publisher-name">Vui lòng nhập tên nhà xuất bản hợp lệ.</message>
+	<message key="metadata.property.displayName.isbn">ISBN</message>
+	<message key="metadata.property.validationMessage.isbn">Vui lòng nhập số hợp lệ ISBN (9 hoặc 13 số).</message>
+	<message key="metadata.property.displayName.issn">In ISSN</message>
+	<message key="metadata.property.validationMessage.issn">Vui lòng nhập In ISSN hợp lệ</message>
+	<message key="metadata.property.displayName.eissn">eISSN</message>
+	<message key="metadata.property.validationMessage.eissn">Vui lòng nhập eISSN hợp lệ.</message>
+	<message key="metadata.property.displayName.doi">DOI</message>
+	<message key="metadata.property.validationMessage.doi">VUi lòng nhập số DOI hợp lệ.</message>
+	<message key="metadata.property.displayName.publisher-id">ID công cộng tuỳ chỉnh</message>
+	<message key="metadata.property.validationMessage.publisher-id">Vui lòng nhập ID xuất bản tùy chỉnh hợp lệ.</message>
+	<message key="metadata.property.displayName.coden">CODEN</message>
+	<message key="metadata.property.validationMessage.coden">Vui lòng nhập CODEN hợp lệ.</message>
+	<message key="metadata.property.displayName.sici">SICI</message>
+	<message key="metadata.property.validationMessage.sici">Vui lòng nhập SICI hợp lệ.</message>
+	<message key="metadata.property.displayName.pmid">PMID</message>
+	<message key="metadata.property.validationMessage.pmid">Vui lòng nhập PMID hợp lệ.</message>
+	<message key="metadata.property.displayName.uri">Liên kết đến Ấn phẩm</message>
+	<message key="metadata.property.validationMessage.uri">Vui lòng nhập liên kết thay thế hợp lệ vào ấn phẩm.</message>
+	<message key="metadata.property.displayName.comment">Bình luận</message>
+	<message key="metadata.property.validationMessage.comment">Vui lòng nhập bình luận hợp lệ</message>
+	<message key="metadata.property.displayName.annotation">Chú thích</message>
+	<message key="metadata.property.validationMessage.annotation">Vui lòng nhập chú thích hợp lệ</message>
+	<message key="metadata.property.displayName.publication-type">Loại xuất bản</message>
+	<message key="metadata.property.validationMessage.publication-type">Vui lòng đảm bảo rằng bạn luôn đặt loại ấn phẩm. Các giá trị hiện tại được hỗ trợ là sách (đối với sách hoặc chương sách) và tạp chí (đối với các bài báo). Nếu không, định dạng đầu ra trích dẫn sẽ không hoạt động chính xác.</message>
+
+	<!-- MODS-specific messages -->
+	<message key="metadata.property.displayName.title-type">Loại tiêu đề</message>
+	<message key="metadata.property.validationMessage.title-type">Vui lòng đảm bảo rằng bạn đặt loại tiêu đề hợp lệ. Các giá trị được hỗ trợ là 'viết tắt', 'dịch', 'thay thế' và 'đồng phục'.</message>
+	<message key="metadata.property.displayName.nonSort">Một phần của tiêu đề bị bỏ qua khi sắp xếp</message>
+	<message key="metadata.property.validationMessage.nonSort">Vui lòng chỉ nhập các ký tự đầu tiên của tiêu đề cần bỏ qua khi sắp xếp tiêu đề.</message>
+	<message key="metadata.property.displayName.title">Tiêu đề</message>
+	<message key="metadata.property.validationMessage.title">Vui lòng nhập tiêu đề hợp lệ.</message>
+	<message key="metadata.property.displayName.subTitle">Phụ đề</message>
+	<message key="metadata.property.validationMessage.subTitle">Vui lòng nhập phụ đề hợp lệ.</message>
+	<message key="metadata.property.displayName.partNumber">Số phần</message>
+	<message key="metadata.property.validationMessage.partNumber">Vui lòng nhập số phần hợp lệ.</message>
+	<message key="metadata.property.displayName.partName">Tên phần</message>
+	<message key="metadata.property.validationMessage.partName">Vui lòng nhập tên phần hợp lệ.</message>
+	<message key="metadata.property.displayName.name-type">Loại tên</message>
+	<message key="metadata.property.validationMessage.name-type">Vui lòng đảm bảo rằng bạn đã đặt loại tên hợp lệ. Các giá trị được hỗ trợ là 'cá nhân', 'công ty' và 'hội nghị'.</message>
+	<!-- FIXME: end -->
+
+	<message key="common.queue.long.submissionsUnassigned">Chưa được gán</message>
+	<message key="common.queue.long.myAssigned">Đã gán của tôi</message>
+	<message key="common.queue.long.submissionsArchived">Bài gửi đã lưu trữ</message>
+	<message key="submission.authors">Tác giả</message>
+	<message key="submission.authorBiography">Tiểu sử tác giả</message>
+	<message key="submission.authorBiographies">Tiểu sử tác giả</message>
+	<message key="submission.authorWithAffiliation">{$name}, {$affiliation}</message>
+	<message key="submission.shortAuthor">{$author} et al.</message>
+	<message key="submission.mySubmissions">Tác giả của tôi</message>
+	<message key="submission.addFile">Đăng tải tập tin</message>
+	<message key="submission.agencies">Đại lý</message>
+	<message key="submission.abstractViews">Chế độ xem tóm tắt</message>
+	<message key="submission.accepted">Đã chấp nhận</message>
+	<message key="submission.acknowledge">Công nhận</message>
+	<message key="submission.addSuppFile">Thêm tệp bổ sung</message>
+	<message key="submission.ask">Hỏi</message>
+	<message key="submission.attachedFile">Tập tin đính kèm</message>
+	<message key="submission.backToSubmissionEditing">Quay lại chỉnh sửa gửi</message>
+	<message key="submission.changeComments">Đổi thành</message>
+	<message key="submission.changeFile">Đổi tập tin</message>
+	<message key="submission.citations">Tài liệu tham khảo</message>
+	<message key="submission.citations.description">Nhập mỗi tham chiếu trên một dòng mới để nó có thể được trích xuất.</message>
+	<message key="submission.parsedCitations">Trích dẫn</message>
+	<message key="submission.parsedCitations.description">Các tham chiếu sau đây đã được trích xuất và sẽ được liên kết với siêu dữ liệu gửi.</message>
+	<message key="submission.parsedAndSaveCitations">Trích xuất và lưu tài liệu tham khảo</message>
+	<message key="submission.comments.addComment">Thêm bình luận</message>
+	<message key="submission.comments.comments">Bình luận</message>
+	<message key="submission.comments.confirmDelete">Bạn có chắc chắn muốn xoá bình luận này?</message>
+	<message key="submission.comments.corrections">Đính chính</message>
+	<message key="submission.comments.editComment">Sửa bình luận</message>
+	<message key="submission.comments.importPeerReviews">Nhập đánh giá ngang hàng </message>
+	<message key="submission.comments.addReviews">Thêm đánh giá vào email</message>
+	<message key="submission.comments.importPeerReviews.reviewerLetter">Người đánh giá {$reviewerLetter}:</message>
+	<message key="submission.comments.noComments">Không có bình luận</message>
+	<message key="submission.comments.noReviews">Không có đánh giá</message>
+	<message key="submission.comments.review">Đánh giá</message>
+	<message key="submission.comments.sendDecisionToReviewers">Gửi quyết định biên tập của người đánh giá</message>
+	<message key="submission.comments.subject">Chủ đề</message>
+	<message key="submission.complete">Hoàn thành</message>
+	<message key="submission.contributors">Danh sách cộng tác viên</message>
+	<message key="submission.copyedited">Đã chỉnh sửa</message>
+	<message key="submission.copyediting">Bản sao đã chỉnh sửa</message>
+	<message key="submission.queryNoteFiles">Tệp thảo luận</message>
+	<message key="submission.coverage">Thông tin bảo hiểm</message>
+	<message key="submission.done">Xong</message>
+	<message key="submission.dueDate">Ngày đến hạn</message>
+	<message key="submission.due">Đến hạn</message>
+	<message key="submission.editing">Chỉnh sửa</message>
+	<message key="submission.editMetadata">Chỉnh sửa siêu dữ liệu</message>
+	<message key="submission.editorial">Chỉnh sửa</message>
+	<message key="submission.email.backToEmailLog">Quay lại Nhật ký Email</message>
+	<message key="submission.email.confirmClearLog">Bạn có chắc chắn muốn xóa nhật ký email cho bài gửi này không?</message>
+	<message key="submission.email.confirmDeleteLogEntry">Bạn có chắc chắn muốn xóa mục nhật ký email này không?</message>
+	<message key="submission.email.deleteLogEntry">Xóa mục nhập nhật ký</message>
+	<message key="submission.emailLog">Email Log</message>
+	<message key="submission.event.participantAdded">{$name} ({$username}) đã được chỉ định cho bài gửi này dưới dạng {$userGroupName}.</message>
+	<message key="submission.event.participantRemoved">"{$name}" ({$username}) đã bị xoá khỏi {$userGroupName}.</message>
+	<message key="submission.event.backToEventLog">Quay lại Nhật ký sự kiện</message>
+	<message key="submission.event.confirmClearLog">Bạn có chắc chắn muốn xóa nhật ký sự kiện cho bài gửi này không?</message>
+	<message key="submission.event.confirmDeleteLogEntry">Bạn có chắc chắn muốn xóa mục nhật ký sự kiện này không?</message>
+	<message key="submission.event.deleteLogEntry">Xóa mục nhật ký sự kiện</message>
+	<message key="submission.event.submissionSubmitted">Đã hoàn tất gửi ban đầu.</message>
+	<message key="submission.event.fileRevised">Bản sửa đổi "{$name}" (file ID {$fileId}-{$fileRevision}) đã được tải lên.</message>
+	<message key="submission.event.general.metadataUpdated">Đã cập nhật siêu dữ liệu đã gửi</message>
+	<message key="submission.event.general.suppFileUpdated">Đã cập nhật tập tin bài gửi</message>
+	<message key="submission.event.reviewer.reviewAcceptedByProxy">Bài đánh giá được chấp nhận bởi proxy</message>
+	<message key="submission.event.reviewer.reviewAccepted">Đã chấp nhận bài đánh giá</message>
+	<message key="submission.event.reviewer.reviewDeclined">Đã từ chối bài đánh giá</message>
+	<message key="submission.event.reviewer.reviewDueDate">Đã sửa đổi ngày hoàn thành xem xét</message>
+	<message key="submission.event.reviewer.reviewerAssigned">Người đánh giá được chỉ định</message>
+	<message key="submission.event.reviewer.reviewerRated">Đã gửi đánh giá của người đánh giá</message>
+	<message key="submission.event.reviewer.reviewerUnassigned">Người đánh giá chưa được chỉ định gửi</message>
+	<message key="submission.event.reviewer.reviewFile">Đã cập nhật tệp đánh giá</message>
+	<message key="submission.event.reviewer.reviewInitiated">Đã bắt đầu chuyển nhượng đánh giá</message>
+	<message key="submission.event.reviewer.reviewRecommendation">Xem lại tệp đề xuất</message>
+	<message key="submission.event.reviewer.reviewReinitiated">Đã khởi tạo lại bài tập đánh giá</message>
+	<message key="submission.event.reviewer.reviewResubmitted">Đã gửi lại đánh giá</message>
+	<message key="submission.event.reviewer.reviewRevision">Đã cập nhật tệp sửa đổi của người đánh giá</message>
+	<message key="submission.event.subjectPrefix">Một email đã được gửi đi:</message>
+	<message key="submission.event.viewEmail">Xem Email</message>
+	<message key="submission.files">Files</message>
+	<message key="submission.files.downloadAll">tải tất cả tập tin</message>
+	<message key="submission.galley">Galley</message>
+	<message key="submission.history.clearLog">Xoá nhật ký</message>
+	<message key="submission.history">Lịch sử</message>
+	<message key="submission.history.noLogEntries">Không có mục nhập nhật ký.</message>
+	<message key="submission.history.recentLogEntries">Mục gần đây</message>
+	<message key="submission.history.submissionEmailLog">Email Log</message>
+	<message key="submission.history.submissionEventLog">Event Log</message>
+	<message key="submission.history.submissionNotes">Ghi chú gửi</message>
+	<message key="submission.history.viewLog">Xem nhật ký</message>
+	<message key="submission.howToCite">Cách trích dẫn</message>
+	<message key="submission.howToCite.citationFormats">Định dạng trích dẫn khác</message>
+	<message key="submission.howToCite.downloadCitation">Tải xuống trích dẫn</message>
+	<message key="submission.indexing">Lập chỉ mục</message>
+	<message key="submission.initiated">Bắt đầu</message>
+
+	<!-- Identifiers -->
+	<message key="submission.identifiers">Số nhận dạng</message>
+	<message key="submission.publisherId">Số nhận dạng URL công khai</message>
+
+	<!-- Information Center -->
+	<message key="submission.informationCenter.submissionInfo">Thông tin gửi</message>
+	<message key="submission.informationCenter.metadata">Siêu dữ liệu</message>
+	<message key="submission.informationCenter.notes">Ghi chú</message>
+	<message key="submission.informationCenter.history">Lịch sử</message>
+	<message key="submission.informationCenter.history.allEvents">Hiển thị sự kiện từ các phiên bản trước</message>
+
+	<!-- Stage Participants -->
+	<message key="submission.stageParticipants.notify">Thông báo</message>
+
+	<message key="submission.lastModified">Chỉnh sửa lần cuối</message>
+	<message key="submission.layout.addGalley">Thêm một Galley Layout</message>
+	<message key="submission.layout.confirmDeleteGalley">Bạn có chắc chắn muốn xóa vĩnh viễn galley này không?</message>
+	<message key="submission.layout.confirmDeleteGalleyImage">Bạn có chắc chắn muốn xóa hình ảnh này khỏi galley?</message>
+	<message key="submission.layout.confirmDeleteSupplementaryFile">Bạn có chắc chắn muốn xóa vĩnh viễn tệp bổ sung này không?</message>
+	<message key="submission.layout.deleteGalleyStylesheet">Xóa kiểu biểu định này.</message>
+	<message key="submission.layout.editGalley">Chỉnh sửa Layout Galley</message>
+	<message key="submission.layout.galleyFormat">Galley Format</message>
+	<message key="submission.layout.galleyHTMLData">Tập tin Galley HTML</message>
+	<message key="submission.layout.galleyImages">Hình ảnh</message>
+	<message key="submission.layout.galleyLabel">Galley Label</message>
+	<message key="submission.layout.galleyLabelInstructions">Thường được sử dụng để xác định định dạng tệp (e.g. PDF, HTML, etc.).</message>
+	<message key="submission.layout.galleyLabelRequired">Nhãn hiệu galley là bắt buộc.</message>
+	<message key="submission.layout.galleyLanguageRequired">Yêu cầu ngôn ngữ Galley.</message>
+	<message key="submission.layout.galleyRemoteURL">Remote URL</message>
+	<message key="submission.layout.galleyRemoteURLValid">Vui lòng cung cấp URL từ xa hợp lệ (include http://).</message>
+	<message key="submission.layout.galleyNoImages">Không có hình ảnh</message>
+	<message key="submission.layout.galleys">Galleys</message>
+	<message key="submission.layout.galleyStylesheet">Tệp biểu định kiểu</message>
+	<message key="submission.layout.galleyStyle">Style</message>
+	<message key="submission.layout.initialGalleyCreation">Tạo Galley ban đầu</message>
+	<message key="submission.layout.layoutFile">Tệp bố cục</message>
+	<message key="submission.layout">Bố cục</message>
+	<message key="submission.layout.layoutVersion">Phiên bản bố cục</message>
+	<message key="submission.layout.newGalley">Tạo Galley mới</message>
+	<message key="submission.layout.newSupplementaryFile">Tải lên tệp bổ sung mới</message>
+	<message key="submission.layout.noStyleFile">Không có tệp bảng định kiểu nào được thêm vào galley này.</message>
+	<message key="submission.layout.supplementaryFiles">Xem xét tệp bổ sung</message>
+	<message key="submission.layout.viewingGalley">Xem nội dung gửi</message>
+	<message key="submission.layout.viewProof">Xem bằng chứng</message>
+	<message key="submission.metadata">Siêu dữ liệu gửi</message>
+	<message key="submission.noReviewAssignments">Không có bài đánh giá nào</message>
+	<message key="submission.notes.addNewNote">Thêm ghi chú mới</message>
+	<message key="submission.notes.attachedFile">Đính kèm tập tin</message>
+	<message key="submission.notes.backToSubmissionNotes">Quay lại Ghi chú Gửi</message>
+	<message key="submission.notes.breadcrumb">Ghi chú</message>
+	<message key="submission.notes.clearAllNotes">Xóa tất cả ghi chú</message>
+	<message key="submission.notes.collapseNotes">Thu gọn ghi chú</message>
+	<message key="submission.notes.confirmDeleteAll">Xóa tất cả ghi chú gửi?</message>
+	<message key="submission.notes.confirmDelete">Xóa thông báo gửi này?</message>
+	<message key="submission.notes.createNewNote">Thêm ghi chú mới</message>
+	<message key="submission.notes.deleteNote">Xoá ghi chú</message>
+	<message key="submission.notes.editNote">Chỉnh sửa ghi chú</message>
+	<message key="submission.notes.expandNotes">Mở rộng ghi chú</message>
+	<message key="submission.notes.noSubmissionNotes">Không có ghi chú gửi</message>
+	<message key="submission.notes.removeUploadedFile">Xóa tệp đã tải lên</message>
+	<message key="submission.notes">Ghi chú gửi</message>
+	<message key="submission.notes.updateNote">Cập nhật Ghi chú</message>
+	<message key="submission.notes.viewNotes">Xem ghi chú</message>
+	<message key="submission.originalFile">Tập tin gốc</message>
+	<message key="submission.page.editing">#{$id} chỉnh sửa</message>
+	<message key="submission.page.history">#{$id} lịch sử</message>
+	<message key="submission.page.review">#{$id} đánh giá</message>
+	<message key="submission.page.summary">#{$id} tổng quan</message>
+	<message key="submission.page.citations">#{$id} Trích dẫn</message>
+	<message key="submission.peerReview">Peer&amp;nbsp;Review</message>
+	<message key="submission.production">Sản xuất</message>
+	<message key="submission.recommendation">Khuyến nghị: {$recommendation}</message>
+	<message key="submission.rejected">Từ chối</message>
+	<message key="submission.request">yêu cầu</message>
+	<message key="submission.response">Phản hồi</message>
+	<message key="submission.restrictions">Hạn chế</message>
+	<message key="submission.reviewMetadata">Đánh giá siêu dữ liệu</message>
+	<message key="submission.review">Đánh giá</message>
+	<message key="submission.reviewed">Đã đánh giá</message>
+	<message key="submission.reviewVersion">Đánh giá phiên bản</message>
+	<message key="submission.rights">Quyền</message>
+	<message key="submission.rights.tip">Nếu muốn, bạn có thể nhập một tuyên bố ngắn gọn về các quyền truy cập được giữ trong hoặc trên nội dung gửi này.</message>
+	<message key="submissions.active">Hoạt động</message>
+	<message key="submissions.archived">Lưu trữ</message>
+	<message key="submission.saveMetadata">Lưu siêu dữ liệu</message>
+	<message key="submissions.completed">Hoàn thành</message>
+	<message key="submissions.declined">Từ chối</message>
+	<message key="submissions.incomplete">Chưa hoàn thành</message>
+	<message key="submissions.noSubmissions">Không có bài gửi</message>
+	<message key="submissions.queuedEditing">Đang chỉnh sửa </message>
+	<message key="submissions.queued">Xếp hàng</message>
+	<message key="submissions.queuedUnassigned">không có người chỉnh sửa nào được chỉ định cho bài gửi này.</message>
+	<message key="submissions.ruling">QUản trị</message>
+	<message key="submission.source">Nguồn</message>
+	<message key="submission.source.tip">Bài gửi này có nguồn gốc từ nguồn khác không? Nếu có, bạn có thể nhập URL hoặc mô tả của nguồn đó.</message>
+	<message key="submissions.submit">Gửi</message>
+	<message key="submissions.submitted">Đã gửi</message>
+	<message key="submission.submission">Bài gửi</message>
+	<message key="submission.submissionTitle"> Tiêu đề bài gửi:</message>
+	<message key="submission.start">Bắt đầu</message>
+	<message key="submission.submissionHistory">Lịch sử bài gửi</message>
+	<message key="submission.submissionManuscript">Gửi bản thảo</message>
+	<message key="submission.submissionReview">Bài đánh giá</message>
+	<message key="submission.submitter">Người nộp</message>
+	<message key="submission.submit.finishSubmission">Hoàn thành bài gửi</message>
+	<message key="submission.submit.selectFile">Chọn tập tin</message>
+	<message key="submission.submit.fileInformation">Thông tin tập tin</message>
+	<message key="submission.submit.fileAdded">Tập tin thêm vào</message>
+	<message key="submission.submit.includeInBrowse">Bao gồm cộng tác viên này trong danh sách duyệt?</message>
+	<message key="submission.submit.newFile">Thêm tệp khác</message>
+	<message key="submission.submit.metadataForm">Tinh chỉnh bổ sung</message>
+	<message key="submission.submit.metadataForm.tip">Thêm thông tin bổ sung cho bài gửi của bạn. Nhấn 'enter' sau mỗi thuật ngữ.</message>
+	<message key="submission.submit.submissionLocale">Ngôn ngữ bài gửi</message>
+	<message key="submission.submit.submissionLocaleDescription">Nội dung gửi bằng nhiều ngôn ngữ được chấp nhận. Chọn ngôn ngữ chính của bài nộp từ danh sách thả xuống ở trên.</message>
+	<message key="submission.submit.submissionFiles">Tệp gửi</message>
+	<message key="submission.submit.dependentFiles">Tệp phụ thuộc</message>
+	<message key="submission.manageDependentFiles">Quản lý tệp phụ thuộc</message>
+	<message key="submission.upload.dependent">Tải lên tệp phụ thuộc</message>
+	<message key="submission.upload.query">Tải lên tệp thảo luận</message>
+	<message key="submission.summary">Tóm tắt</message>
+	<message key="submission.supplementaryFiles">Tệp bổ sung</message>
+	<message key="submission.supportingAgencies">Các cơ quan hỗ trợ</message>
+	<message key="submission.currentAgencies">Cơ quan hiện tại</message>
+	<message key="submission.indexingInformation">Thông tin lập chỉ mục</message>
+	<message key="submission.titleAndAbstract">Tiêu đề và Tóm tắt</message>
+	<message key="submission.type.tip"><![CDATA[Loại gửi thường là một trong những 'hình ảnh', 'văn bản' hoặc các loại đa phương tiện khác bao gồm 'phần mềm' hoặc 'tương tác'. Vui lòng chọn tên phù hợp nhất với nội dung bạn gửi. Có thể tìm thấy các ví dụ tại <a target="_blank" href="http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type">http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type</a>]]></message>
+	<message key="submission.underway">Đang tiến hành</message>
+	<message key="submission.uploadFileTo">Tải tệp lên</message>
+	<message key="submission.createRemote">Tạo điều khiển từ xa</message>
+	<message key="submission.viewMetadata">Xem siêu dữ liệu</message>
+	<message key="submission.views">Lượt xem</message>
+	<message key="submission.uploadSuccessful">Tệp của bạn đã được tải lên.</message>
+	<message key="submission.loadMessage">Vui lòng chờ trong khi tệp của bạn được tải lên máy chủ.</message>
+	<message key="submission.artworkFileDetails">Chi tiết tập tin</message>
+	<message key="submission.fileDetails">Chi tiết tệp</message>
+	<message key="submission.nameRequired">Yêu cầu tên cho tập tin này.</message>
+	<message key="submission.date.mmdd">MM-DD</message>
+	<message key="submission.date.yyyymmdd">YYYY-MM-DD</message>
+	<message key="submission.submit.selectPrincipalContact">Liên hệ chính cho thư từ biên tập.</message>
+	<message key="submission.submit.contributorRole">Vai trò của người đóng góp</message>
+	<message key="submission.submit.addAuthor">Thêm ngừoi đóng góp</message>
+	<message key="submission.submit.form.languagesRequired">Vui lòng nhập ngôn ngữ.</message>
+	<message key="submission.submit.form.subjectsRequired">Vui lòng nhập chủ đề</message>
+	<message key="submission.submit.form.disciplinesRequired">Vui lòng nhập quy luật</message>
+	<message key="submission.submit.form.keywordsRequired">Vui lòng nhập từ khoá</message>
+	<message key="submission.submit.form.agenciesRequired">Vui lòng nhập nhân viên hỗ trợ.</message>
+	<message key="submission.submit.form.coverageRequired">Vui lòng nhập thông tin bảo hiểm.</message>
+	<message key="submission.submit.form.typeRequired">Vui lòng nhập loại.</message>
+	<message key="submission.submit.form.sourceRequired">Vui lòng nhập nguồn.</message>
+	<message key="submission.submit.form.rightsRequired">Vui lòng nhập các quyền.</message>
+	<message key="submission.submit.form.citationsRequired">Vui lòng nhập tham chiếu.</message>
+
+	<!-- Submission file upload form elements -->
+	<message key="submission.form.name">Đặt tên cho tập tin (e.g., Manuscript; Table 1)</message>
+	<message key="submission.form.replaceExisting">Thay thế một tệp hiện có?</message>
+
+	<!-- Workflow keys -->
+	<message key="workflow.review.internalReview">Xem xét nội bộ</message>
+	<message key="workflow.stage.any">Mọi giai đoạn</message>
+	<message key="workflow.stage">Giai đoạn</message>
+
+
+	<!-- Submission status -->
+	<message key="submission.status.editorial">Đang chỉnh sửa</message>
+	<message key="submission.status.production">Đang sửa lỗi</message>
+	<message key="submission.status.review">Đang đánh giá</message>
+	<message key="submission.status.submission">Đang đợi quyết định của biên tập viên</message>
+	<message key="submission.status.unassigned">Chưa được gán</message>
+	<message key="submission.status.declined">Đã từ chối</message>
+	<message key="submission.status.published">Đã xuất bản</message>
+
+	<message key="submission.submit.uploadStep">1. Tải tập tin</message>
+	<message key="submission.submit.uploadSubmissionFile">Tải lên tệp gửi</message>
+	<message key="submission.submit.metadataStep">2. Đánh giá chi tiết</message>
+	<message key="submission.submit.finishingUpStep">3. Xác nhận</message>
+	<message key="submission.submit.fileNameRequired">Bạn phải nhập tên tệp cho tệp này</message>
+
+	<!-- File upload wizard -->
+	<message key="submission.upload.noGenre">Thành phần bị thiếu hoặc không hợp lệ!</message>
+	<message key="submission.upload.invalidUserGroup">Nhóm người dùng bị thiếu hoặc không hợp lệ</message>
+	<message key="submission.upload.possibleRevision">Có thể sao chép hoặc sửa đổi</message>
+	<message key="submission.upload.possibleRevisionDescription"><![CDATA[Tên của tệp được tải lên giống với tên của tệp được tải lên trước đây, "{$revisedFileName}." Tệp này có nhằm thay thế "{$revisedFileName}" không? Nếu có, hãy chọn tệp bên dưới. Nếu không, hãy chọn "Đây không phải là bản sửa đổi của tệp hiện có" trước khi tiếp tục.]]></message>
+	<message key="submission.upload.selectMandatoryFileToRevise">Vui lòng chọn tệp bạn muốn sửa đổi.</message>
+	<message key="submission.upload.selectOptionalFileToRevise">Nếu bạn đang tải lên bản sửa đổi của một tệp hiện có, vui lòng cho biết tệp nào.</message>
+	<message key="submission.upload.uploadNewFile">Đây không phải là bản sửa đổi của một tệp hiện có </message>
+	<message key="submission.upload.userGroup">Tải tệp này lên vai trò của tôi là ...</message>
+	<message key="submission.upload.userGroupDescription">Nếu bạn đang gửi một số lượng đã chỉnh sửa, bạn nên tải lên tất cả các tập theo từng phần, dưới vai trò của bạn là người biên tập.</message>
+	<message key="submission.upload.uploadLibraryFile">Tải lên tệp thư viện</message>
+	<message key="submission.upload.libraryCategory">Danh mục tài liệu gửi</message>
+
+	<!-- File uploads -->
+	<message key="submission.upload.finalDraft">Tải tập tin</message>
+	<message key="submission.upload.copyeditedVersion">Tải lên tệp đã chỉnh sửa</message>
+	<message key="submission.upload.fairCopy">Tải lên bản sao</message>
+	<message key="submission.upload.uploadFiles">Tải lên tập tin</message>
+	<message key="submission.upload.response.description">Sau khi xem lại tệp được chỉ định, hãy ghi lại bất kỳ nhận xét nào về tệp bên dưới và / hoặc tải lên bản sao có chú thích của tệp (hoặc một tệp khác).</message>
+	<message key="submission.upload.productionReady">Tải lên tệp sẵn sàng xuất bản</message>
+	<message key="submission.upload.proof">Tải lên bằng chứng</message>
+	<message key="submission.upload.noAvailableReviewFiles">Không có tệp nào để bạn sửa đổi vào lúc này.</message>
+
+	<!-- Review Round Status Keys -->
+	<message key="editor.submission.roundStatus.revisionsRequested">Đã yêu cầu sửa đổi.</message>
+	<message key="editor.submission.roundStatus.revisionsSubmitted">Bản xem lại đã được gửi.</message>
+	<message key="editor.submission.roundStatus.resubmitForReview">Bải gửi phải được gửi lại cho vòng đánh giá khác.</message>
+	<message key="editor.submission.roundStatus.submissionResubmitted">Bải gửi đã được gửi lại cho vòng đánh giá khác.</message>
+
+	<message key="editor.submission.roundStatus.sentToExternal">Được gửi đến đánh giá bên ngoài.</message>
+	<message key="editor.submission.roundStatus.accepted">Đã chấp nhận đăng ký.</message>
+	<message key="editor.submission.roundStatus.declined">Đã từ chối đăng ký.</message>
+	<message key="editor.submission.roundStatus.pendingReviewers">Đang đợi người đánh giá được chỉ định.</message>
+	<message key="editor.submission.roundStatus.pendingReviews">Đang chờ phản hồi từ người đánh giá.</message>
+	<message key="editor.submission.roundStatus.reviewsReady">Đánh giá mới đã được gửi.</message>
+	<message key="editor.submission.roundStatus.reviewsCompleted">Tất cả các đánh giá đều đã có và cần có một quyết định.</message>
+	<message key="editor.submission.roundStatus.reviewOverdue">Một đánh giá đã hết hạn.</message>
+	<message key="editor.submission.roundStatus.pendingRecommendations">Đang chờ đề xuất từ người chỉnh sửa.</message>
+	<message key="editor.submission.roundStatus.recommendationsReady">Các đề xuất biên tập mới đã được gửi.</message>
+	<message key="editor.submission.roundStatus.recommendationsCompleted">Tất cả các khuyến nghị đều đã có và cần có một quyết định.</message>
+
+	<!-- Participants -->
+	<message key="editor.submission.stageParticipants">Người tham gia</message>
+
+	<!-- Stage Participants grid -->
+	<message key="editor.submission.noneAssigned">Chưa được gán</message>
+	<message key="editor.submission.participant">Người tham gia</message>
+	<message key="editor.submission.addStageParticipant">Chỉ định người tham gia</message>
+	<message key="editor.submission.addStageParticipant.userGroup">Người dùng được chỉ định cho các giai đoạn của quy trình làm việc theo nhóm người dùng. Bất kỳ người dùng nào được gán cho giai đoạn này sẽ tự động được chỉ định cho các giai đoạn khác mà nhóm người dùng của họ đã được chỉ định. Điều này thường được dành riêng cho các biên tập viên, tác giả và biên dịch viên.</message>
+	<message key="editor.submission.removeStageParticipant">Xoá người tham gia</message>
+	<message key="editor.submission.removeStageParticipant.description"><![CDATA[Bạn sắp xoá người tham gia này khỏi <strong>all</strong> stages. Nếu người dùng cũng có nhiệm vụ kiểm toán đang chờ xử lý, họ cũng sẽ bị xóa.]]></message>
+	<message key="editor.submission.addStageParticipant.form.userGroupRequired">Bạn phải chọn một nhóm người dùng.</message>
+	<message key="editor.submission.addStageParticipant.form.userRequired">Bạn phải chọn người dùng cho nhóm người dùng được chỉ định.</message>
+	<message key="editor.submission.addStageParticipant.form.reviewerWarning">Người tham gia bạn chọn đã được chỉ định để tiến hành đánh giá mù. Nếu bạn chỉ định họ là người tham gia, họ sẽ có quyền truy cập vào danh tính của tác giả. Bạn được khuyến khích không chỉ định người tham gia này trừ khi bạn có thể độc lập đảm bảo tính toàn vẹn của quy trình đánh giá ngang hàng.</message>
+
+	<!--  editor decisions -->
+	<message key="editor.submission.decision">Quyết định</message>
+	<message key="editor.submission.decision.accept">Chấp nhận bài gửi</message>
+	<message key="editor.submission.decision.requestRevisions">Yêu cầu sửa đổi</message>
+	<message key="editor.submission.decision.resubmit">Gửi lại để xem xét</message>
+	<message key="editor.submission.decision.decline">Từ chối bài gửi</message>
+	<message key="editor.submission.decision.sendToProduction">Gửi để xuất bản</message>
+	<message key="editor.submission.decision.skipReview">Chấp nhận và bỏ qua đánh giá</message>
+	<message key="editor.submission.decision.sendInternalReview">Gửi đến đánh giá nội bộ</message>
+	<message key="editor.submission.decision.approveProofsDescription">Tệp chứng minh trang phải được kiểm tra là đã được phê duyệt để có sẵn. Bạn có muốn phê duyệt nó không?</message>
+	<message key="editor.submission.decision.approveProofs">Phê duyệt bằng chứng</message>
+	<message key="editor.submission.decision.disapproveProofsDescription">Chứng minh tệp này sẽ không còn công khai để tải xuống hoặc mua. Bạn có muốn từ chối nó không?</message>
+	<message key="editor.submission.decision.noDecisionsAvailable">Chỉ định một trình chỉnh sửa để bật các quyết định biên tập cho giai đoạn này.</message>
+	<!--  editor recommendations -->
+	<message key="editor.submission.makeRecommendation">Tạp khuyến nghị</message>
+	<message key="editor.submission.changeRecommendation">Thay đổi khuyến nghị</message>
+	<message key="editor.submission.recommendation.display">Khuyến nghị: {$recommendation}</message>
+	<message key="editor.submission.allRecommendations.display">Các khuyến nghị: {$recommendations}</message>
+	<message key="editor.submission.recommendation">Khuyến nghị</message>
+	<message key="editor.submission.recommendation.description">Đề xuất quyết định biên tập cho bài gửi này.</message>
+	<message key="editor.submission.recordedRecommendations"> Đề xuất đã ghi</message>
+	<message key="editor.submission.decision.nextButton">Tiếp theo: Chọn tệp cho {$stageName}</message>
+	<message key="editor.submission.decision.selectFiles">Chọn các tệp bạn muốn chuyển tiếp đến giai đoạn {$stageName}.</message>
+	<message key="editor.submission.decision.previousAuthorNotification">Trước: Thông báo tác giả</message>
+
+	<!-- workflow navigation keys -->
+	<message key="submission.currentStage">Giai đoạn hiện tại</message>
+	<message key="submission.noActionRequired">Không yêu cầu hành động nào</message>
+	<message key="submission.actionNeeded"> Cần hành động</message>
+
+	<message key="reviewer.submission.reviewFiles">Đánh giá tệp</message>
+	<message key="submission.submit.currentFile">Tệp hiện tại</message>
+	<message key="submission.finalDraft">Tệp nháp</message>
+
+	<!-- Auditor keys -->
+	<message key="editor.submission.addAuditorError">Đã xảy ra lỗi khi cố gắng chỉ định biên tập viên. Vui lòng thử lại.</message>
+
+	<!-- Submission event log -->
+	<message key="submission.event.fileUploaded">Tệp "{$originalFileName}" đã được tải lên để gửi {$submissionId} bởi {$username}.</message>
+	<message key="submission.event.fileDeleted">Tệp "{$originalFileName}" đã bị xoá khỏi bài gửi {$submissionId} bởi {$username}.</message>
+	<message key="submission.event.revisionUploaded">Bản sửa đổi tệp "{$originalFileName}" đã được tải lên để gửi {$submissionId} bởi {$username}.</message>
+	<message key="submission.event.revisionDeleted">Bản sửa đổi tệp "{$originalFileName}" đã bị xoá khỏi bài gửi {$submissionId} bởi {$username}.</message>
+	<message key="submission.event.lastRevisionDeleted">Tệp "{$title}" đã bị xoá lần cuối bởi {$username}.</message>
+	<message key="submission.event.fileAuditorAdded">"{$name}" ({$username}) đã được thêm làm biên tập viên cho tệp "{$file}."</message>
+	<message key="submission.event.fileAuditorCleared">"{$name}" ({$username}) đã bị xoá làm biên tập viên cho tệp "{$file}."</message>
+	<message key="submission.event.fileAuditUploaded">"{$name}" ({$username}) đã hoàn thành việc kiểm tra và tải lên "{$file}."</message>
+	<message key="submission.event.signoffSignoff">"{$name}" ({$username}) đã ký tắt trên đăng xuất"{$file}."</message>
+	<message key="submission.event.proofsApproved">"{$name}" ({$username}) đã phê duyệt các bằng chứng cho "{$formatName}."</message>
+	<message key="submission.overview">Tổng quan bài gửi</message>
+	<message key="submission.description">Mô tả</message>
+	<message key="submission.stageNotInitiated">giai đoạn không được bắt đầu.</message>
+	<message key="submission.documents">Tài liệu gửi.</message>
+	<message key="notification.type.editorAssign">Bạn đã được chỉ định làm người biên tập cho bài nộp "{$title}".</message>
+	<message key="notification.type.copyeditorRequest">Bạn đã được yêu cầu xem lại bản chỉnh sửa cho "{$title}".</message>
+	<message key="notification.type.layouteditorRequest">Bạn đã được yêu cầu xem lại bố cục cho "{$title}".</message>
+người	<message key="notification.type.editorDecisionTitle">Quyết định biên tập mới nhất.</message>
+	<message key="notification.type.editorDecisionAccept">Đã chấp nhận bài gửi.</message>
+	<message key="notification.type.editorDecisionExternalReview">Đã bắt đầu quy trình xem xét bên ngoài.</message>
+	<message key="notification.type.editorDecisionPendingRevisions">Yêu cầu sửa đổi.</message>
+	<message key="notification.type.editorDecisionResubmit">Gửi lại để xem xét.</message>
+	<message key="notification.type.editorDecisionDecline">Đã gửi bài gửi.</message>
+	<message key="notification.uploadedResponse">Đã tải lên phản hồi.</message>
+
+	<message key="notification.type.editorAssignment">Người chỉnh sửa phải được chỉ định trước khi bắt đầu đánh giá. Vui lòng thêm người chỉnh sửa bằng danh sách Người tham gia.</message>
+	<message key="grid.reviewAttachments.title">Bản đính kèm của người đánh giá</message>
+	<message key="grid.reviewAttachments.send.title">Chọn các tệp đánh giá để chia sẻ với (các) tác giả</message>
+	<message key="submission.productionReady"> Sách có sẵn</message>
+	<message key="submission.review.uploadRevisionToRound">Tải lên tệp đã sửa đổi</message>
+	<message key="log.review.reviewerAssigned">{$reviewerName} đã được chỉ định để gửi bài đánh giá {$submissionId} cho vòng đánh giá {$round}.</message>
+	<message key="submission.review.status.awaitingResponse">Đang chờ phản hồi từ người đánh giá.</message>
+	<message key="submission.review.status.declined">Người đánh giá đã từ chối yêu cầu đánh giá này.</message>
+	<message key="submission.review.status.responseOverdue">Người đánh giá đã bỏ lỡ ngày đến hạn trả lời.</message>
+	<message key="submission.review.status.reviewOverdue">Người đánh giá đã bỏ lỡ ngày đến hạn đánh giá.</message>
+	<message key="submission.review.status.accepted">Bài đánh giá này đã được chấp nhận.</message>
+	<message key="submission.review.status.received">Người đánh giá đã gửi đánh giá của họ.</message>
+	<message key="submission.review.status.complete">Bài đánh giá này đã được hoàn thành.</message>
+	<message key="submission.review.status.thanked">Bài đánh giá này đã hoàn tất và người đánh giá đã được cảm ơn vì những đóng góp của họ.</message>
+	<message key="submission.document">Tài liệu</message>
+	<message key="submission.art">Tác phẩm nghệ thuật</message>
+	<message key="submission.supplementary">Nội dung bổ sung</message>
+	<message key="submission.supplementary.creator">Người tạo (hoặc chủ sở hữu) của tệp</message>
+	<message key="submission.supplementary.subject">Chủ đề</message>
+	<message key="submission.supplementary.publisher">Nhà xuất bản</message>
+	<message key="submission.supplementary.sponsor">Cộng tác viên hoặc cơ quan tài trợ</message>
+	<message key="grid.action.itemWorkflow">Chuyển đến luồng công việc của người gửi này</message>
+	<message key="notification.type.editorDecisionSendToProduction">Quá trình xuất bản bắt đầu.</message>
+	<message key="notification.type.editorAssignmentProduction">Một biên tập viên phải được chỉ định trước khi quá trình xuất bản có thể được bắt đầu. Vui lòng thêm một trình soạn thảo xuất bản bằng cách sử dụng danh sách Người tham gia.</message>
+	<message key="notification.type.editorAssignmentEditing">Một biên tập viên xuất bản phải được chỉ định trước khi quá trình biên tập được bắt đầu. Vui lòng thêm một trình soạn thảo xuất bản bằng cách sử dụng danh sách Người tham gia.</message>
+
+	<!--  peer review -->
+	<message key="submission.reviewForm">Mẫu đánh giá</message>
+	<message key="submission.reviewFormResponse">Biểu mẫu phản hồi đánh giá</message>
+	<message key="grid.action.createReviewFormElement">Tạo phần tử biểu mẫu đánh giá mới</message>
+	<message key="grid.action.editMetadata">Chỉnh sửa siêu dữ liệu</message>
+
+	<!-- Permissions -->
+	<message key="submission.permissions">Quyền</message>
+	<message key="submission.attachPermissions">Đính kèm các quyền sau vào nội dung gửi:</message>
+	<message key="submission.license">Giấy phép</message>
+	<message key="submission.copyright">Bản quyền</message>
+	<message key="submission.copyrightHolder">Người giữ bản quyền</message>
+	<message key="submission.copyrightYear">Năm bản quyền</message>
+	<message key="submission.copyrightStatement">Copyright (c) {$copyrightYear} {$copyrightHolder}</message>
+	<message key="submission.licenseURLValid">Vui lòng cung cấp URL từ xa hợp lệ (bao gồm http://).</message>
+	<message key="submission.licenseURL">Giấy phép URL</message>
+	<message key="submission.license.cc.by-nc-nd4">CC Attribution-NonCommercial-NoDerivatives 4.0</message>
+	<message key="submission.license.cc.by-nc4">CC Attribution-NonCommercial 4.0</message>
+	<message key="submission.license.cc.by-nc-sa4">CC Attribution-NonCommercial-ShareAlike 4.0</message>
+	<message key="submission.license.cc.by-nd4">CC Attribution-NoDerivatives 4.0</message>
+	<message key="submission.license.cc.by4">CC Attribution 4.0</message>
+	<message key="submission.license.cc.by-sa4">CC Attribution-ShareAlike 4.0</message>
+	<message key="submission.license.cc.by-nc-nd4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>]]></message>
+	<message key="submission.license.cc.by-nc4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>]]></message>
+	<message key="submission.license.cc.by-nc-sa4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>]]></message>
+	<message key="submission.license.cc.by-nd4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</p>]]></message>
+	<message key="submission.license.cc.by4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>]]></message>
+	<message key="submission.license.cc.by-sa4.footer"><![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>]]></message>
+
+	<!-- Submission Queries -->
+	<message key="submission.queries.submission">Thảo luận trước khi xem xét</message>
+	<message key="submission.queries.review">Xem lại thảo luận</message>
+	<message key="submission.queries.editorial">Chỉnh sửa thảo luận</message>
+	<message key="submission.queries.production">Thảo luận sản xuất</message>
+	<message key="submission.query.subject">Chủ đề</message>
+	<message key="submission.query.messages">Tin nhắn</message>
+	<message key="submission.query.replies">Trả lời</message>
+	<message key="submission.query.from">Từ</message>
+	<message key="submission.query.lastReply">Trả lời cuối cùng</message>
+	<message key="submission.query.closed">Đã đóng</message>
+	<message key="submission.query.addNote">Thêm tin nhắn</message>
+	<message key="grid.action.openNoteForm">Thêm trả lời mới cho cuộc thảo luận</message>
+	<message key="submission.query.activity">{$responderName} trả lời tới {$noteTitle}: {$noteContents}</message>
+	<message key="submission.query.new">{$creatorName} bắt đầu thảo luận: {$noteTitle}: {$noteContents}</message>
+	<message key="submission.query.activity.contents">Có hoạt động mới trong cuộc thảo luận có tiêu đề "{$queryTitle}" theo bài gửi "{$submissionTitle}".</message>
+	<message key="submission.query.new.contents">Bạn đã được thêm vào cuộc thảo luận có tiêu đề "{$queryTitle}" theo bài gửi "{$submissionTitle}".</message>
+	<message key="submission.query.participantTitle">{$fullName}, {$userGroup}</message>
+	<message key="submission.query.noParticipantOptions">Bạn phải chỉ định ít nhất một người tham gia gửi bài này trước khi bắt đầu một cuộc thảo luận.</message>
+
+	<!-- Submission Lists -->
+	<message key="submission.list.infoCenter">Nhật ký hoạt động &amp; Ghi chú</message>
+	<message key="submission.list.count">{$count} bài gửi</message>
+	<message key="submission.list.itemsOfTotal">{$count} trong {$total} bài gửi</message>
+	<message key="submission.list.responseDue">Hạn trả lời</message>
+	<message key="submission.list.reviewDue">Hạn đánh giá</message>
+	<message key="submission.list.reviewComplete">Đã gửi đánh giá</message>
+	<message key="submission.list.confirmDelete">Xóa bài gửi?</message>
+	<message key="submission.list.itemOrdererUp">Tăng chức vụ của {$itemTitle}</message>
+	<message key="submission.list.itemOrdererDown">Giảm chức vụ của {$itemTitle}</message>
+	<message key="submission.list.viewSubmission">Xem bài gửi</message>
+	<message key="submission.list.reviewsCompleted">Đã hoàn thành đánh giá được chỉ định</message>
+	<message key="submission.list.revisionsSubmitted">Đã gửi bản chỉnh sửa</message>
+	<message key="submission.list.copyeditsSubmitted">Đã gửi bản sửa đổi</message>
+	<message key="submission.list.galleysCreated">Galley xuất bản đã được tạo</message>
+	<message key="submission.list.filesPrepared">Tập tin đã đuược chuẩn bị</message>
+	<message key="submission.list.discussions">Mở thảo luận</message>
+	<message key="submission.list.dualWorkflowLinks"><![CDATA[Bạn đã được chỉ định nhiều vai trò cho bài gửi này. Bạn có muốn truy cập vào <a href="{$urlAuthorWorkflow}">Author's workflow</a>  or the <a href="{$urlEditorialWorkflow}">Editorial workflow</a>?]]></message>
+	<message key="submission.list.reviewerWorkflowLink"><![CDATA[Bạn đã được chỉ định vai trò biên tập cho bài gửi này. Bạn có muốn truy cập vào <a href="{$urlEditorialWorkflow}">Editorial workflow</a>?]]></message>
+	<message key="submission.list.incompleteSubmissionNotice">Nội dung gửi này phải được hoàn tất trước khi người chỉnh sửa xem xét.</message>
+	<message key="submission.list.currentStage">Đang ở giai đoạn {$stage}.</message>
+</locale>
